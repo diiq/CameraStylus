@@ -7,14 +7,26 @@
 //
 
 #import "CVWrapper.h"
-#import <opencv2/opencv.hpp>
+#import "fetchCoords.h"
 
 
 @implementation CVWrapper
 
-+ (void) setCoords:(NSInteger*) x _:(NSInteger*) y
++ (NSDictionary*) getCoords;
 {
+  double x = 0;
+  double y = 0;
+  bool work = fetchCoords(x, y);
+  return @{
+    @"x" : [NSNumber numberWithDouble:x],
+    @"y" : [NSNumber numberWithDouble:y],
+    @"success" : [NSNumber numberWithBool:work],
+  };
 }
 
++ (void) openCamera;
+{
+  openCamera();
+}
 
 @end

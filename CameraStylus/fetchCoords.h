@@ -11,6 +11,7 @@
 #define CVOpenTemplate_Header_h
 #include <opencv2/opencv.hpp>
 
-void fetchCoords(int* x, int* y);
+bool fetchCoords(double &x, double &y);
+void openCamera();
 
 #endif
