@@ -12,6 +12,8 @@
 		2A3D9D981C8B609000F52C6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A3D9D971C8B609000F52C6B /* Assets.xcassets */; };
 		2A3D9D9B1C8B609000F52C6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A3D9D991C8B609000F52C6B /* Main.storyboard */; };
 		2A3D9DA61C8B609000F52C6B /* CameraStylusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3D9DA51C8B609000F52C6B /* CameraStylusTests.swift */; };
+		2A3D9DB31C8B614A00F52C6B /* CVWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2A3D9DB21C8B614A00F52C6B /* CVWrapper.mm */; };
+		2AE7A6E41C8CC4010012D4A3 /* fetchCoords.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A6E21C8CC4010012D4A3 /* fetchCoords.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,11 @@
 		2A3D9DA11C8B609000F52C6B /* CameraStylusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CameraStylusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A3D9DA51C8B609000F52C6B /* CameraStylusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraStylusTests.swift; sourceTree = "<group>"; };
 		2A3D9DA71C8B609000F52C6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A3D9DB01C8B610500F52C6B /* CVWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVWrapper.h; sourceTree = "<group>"; };
+		2A3D9DB11C8B614900F52C6B /* CameraStylus-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CameraStylus-Bridging-Header.h"; sourceTree = "<group>"; };
+		2A3D9DB21C8B614A00F52C6B /* CVWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CVWrapper.mm; sourceTree = "<group>"; };
+		2AE7A6E21C8CC4010012D4A3 /* fetchCoords.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fetchCoords.cpp; sourceTree = "<group>"; };
+		2AE7A6E31C8CC4010012D4A3 /* fetchCoords.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fetchCoords.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +87,11 @@
 				2A3D9D971C8B609000F52C6B /* Assets.xcassets */,
 				2A3D9D991C8B609000F52C6B /* Main.storyboard */,
 				2A3D9D9C1C8B609000F52C6B /* Info.plist */,
+				2A3D9DB01C8B610500F52C6B /* CVWrapper.h */,
+				2A3D9DB21C8B614A00F52C6B /* CVWrapper.mm */,
+				2AE7A6E21C8CC4010012D4A3 /* fetchCoords.cpp */,
+				2AE7A6E31C8CC4010012D4A3 /* fetchCoords.h */,
+				2A3D9DB11C8B614900F52C6B /* CameraStylus-Bridging-Header.h */,
 			);
 			path = CameraStylus;
 			sourceTree = "<group>";
@@ -193,7 +205,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AE7A6E41C8CC4010012D4A3 /* fetchCoords.cpp in Sources */,
 				2A3D9D961C8B609000F52C6B /* ViewController.swift in Sources */,
+				2A3D9DB31C8B614A00F52C6B /* CVWrapper.mm in Sources */,
 				2A3D9D941C8B609000F52C6B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,11 +326,36 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "__ASSERT_MACROS_DEFINE_VERSIONS_WITHOUT_UNDERSCORES=0";
+				"HEADER_SEARCH_PATHS[arch=*]" = /usr/local/include;
 				INFOPLIST_FILE = CameraStylus/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				"LIBRARY_SEARCH_PATHS[arch=*]" = /usr/local/lib;
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-lopencv_calib3d",
+					"-lopencv_core",
+					"-lopencv_features2d",
+					"-lopencv_flann",
+					"-lopencv_highgui",
+					"-lopencv_imgcodecs",
+					"-lopencv_imgproc",
+					"-lopencv_ml",
+					"-lopencv_objdetect",
+					"-lopencv_photo",
+					"-lopencv_shape",
+					"-lopencv_stitching",
+					"-lopencv_superres",
+					"-lopencv_ts",
+					"-lopencv_video",
+					"-lopencv_videoio",
+					"-lopencv_videostab",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.diiq.CameraStylus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CameraStylus/CameraStylus-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -324,11 +363,35 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "__ASSERT_MACROS_DEFINE_VERSIONS_WITHOUT_UNDERSCORES=0";
+				"HEADER_SEARCH_PATHS[arch=*]" = /usr/local/include;
 				INFOPLIST_FILE = CameraStylus/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				"LIBRARY_SEARCH_PATHS[arch=*]" = /usr/local/lib;
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-lopencv_calib3d",
+					"-lopencv_core",
+					"-lopencv_features2d",
+					"-lopencv_flann",
+					"-lopencv_highgui",
+					"-lopencv_imgcodecs",
+					"-lopencv_imgproc",
+					"-lopencv_ml",
+					"-lopencv_objdetect",
+					"-lopencv_photo",
+					"-lopencv_shape",
+					"-lopencv_stitching",
+					"-lopencv_superres",
+					"-lopencv_ts",
+					"-lopencv_video",
+					"-lopencv_videoio",
+					"-lopencv_videostab",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.diiq.CameraStylus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CameraStylus/CameraStylus-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -377,6 +440,7 @@
 				2A3D9DAC1C8B609000F52C6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A3D9DAD1C8B609000F52C6B /* Build configuration list for PBXNativeTarget "CameraStylusTests" */ = {
 			isa = XCConfigurationList;
@@ -385,6 +449,7 @@
 				2A3D9DAF1C8B609000F52C6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
