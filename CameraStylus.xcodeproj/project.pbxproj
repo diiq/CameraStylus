@@ -14,6 +14,38 @@
 		2A3D9DA61C8B609000F52C6B /* CameraStylusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3D9DA51C8B609000F52C6B /* CameraStylusTests.swift */; };
 		2A3D9DB31C8B614A00F52C6B /* CVWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2A3D9DB21C8B614A00F52C6B /* CVWrapper.mm */; };
 		2AE7A6E41C8CC4010012D4A3 /* fetchCoords.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A6E21C8CC4010012D4A3 /* fetchCoords.cpp */; };
+		2AE7A6ED1C8D06470012D4A3 /* ActiveDrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A6EB1C8D06470012D4A3 /* ActiveDrawingView.swift */; };
+		2AE7A6EE1C8D06470012D4A3 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A6EC1C8D06470012D4A3 /* DrawingView.swift */; };
+		2AE7A7111C8D07500012D4A3 /* ActiveDrawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A6F11C8D07500012D4A3 /* ActiveDrawing.swift */; };
+		2AE7A7121C8D07500012D4A3 /* Drawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A6F31C8D07500012D4A3 /* Drawing.swift */; };
+		2AE7A7131C8D07500012D4A3 /* Snapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A6F41C8D07500012D4A3 /* Snapshot.swift */; };
+		2AE7A7141C8D07500012D4A3 /* SnapshotTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A6F51C8D07500012D4A3 /* SnapshotTimeline.swift */; };
+		2AE7A7151C8D07500012D4A3 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A6F61C8D07500012D4A3 /* Timeline.swift */; };
+		2AE7A71A1C8D07500012D4A3 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A6FC1C8D07500012D4A3 /* Point.swift */; };
+		2AE7A71B1C8D07500012D4A3 /* LinearFixedPenStroke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A6FE1C8D07500012D4A3 /* LinearFixedPenStroke.swift */; };
+		2AE7A71C1C8D07500012D4A3 /* LinearVariablePenStroke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A6FF1C8D07500012D4A3 /* LinearVariablePenStroke.swift */; };
+		2AE7A71D1C8D07500012D4A3 /* SmoothFixedGuidedStroke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A7001C8D07500012D4A3 /* SmoothFixedGuidedStroke.swift */; };
+		2AE7A71E1C8D07500012D4A3 /* SmoothFixedPenStroke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A7011C8D07500012D4A3 /* SmoothFixedPenStroke.swift */; };
+		2AE7A71F1C8D07500012D4A3 /* SmoothImageStampedStroke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A7021C8D07500012D4A3 /* SmoothImageStampedStroke.swift */; };
+		2AE7A7201C8D07500012D4A3 /* SmoothStampedStroke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A7031C8D07500012D4A3 /* SmoothStampedStroke.swift */; };
+		2AE7A7211C8D07500012D4A3 /* SmoothVariableGuidedStroke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A7041C8D07500012D4A3 /* SmoothVariableGuidedStroke.swift */; };
+		2AE7A7221C8D07500012D4A3 /* SmoothVariablePenStroke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A7051C8D07500012D4A3 /* SmoothVariablePenStroke.swift */; };
+		2AE7A7231C8D07500012D4A3 /* Stroke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A7061C8D07500012D4A3 /* Stroke.swift */; };
+		2AE7A7241C8D07500012D4A3 /* StrokeSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A7071C8D07500012D4A3 /* StrokeSettings.swift */; };
+		2AE7A7261C8D07500012D4A3 /* ApplyRulerGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A70A1C8D07500012D4A3 /* ApplyRulerGuide.swift */; };
+		2AE7A7271C8D07500012D4A3 /* PerpendicularOutset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A70B1C8D07500012D4A3 /* PerpendicularOutset.swift */; };
+		2AE7A7281C8D07500012D4A3 /* ScaleWeights.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A70C1C8D07500012D4A3 /* ScaleWeights.swift */; };
+		2AE7A7291C8D07500012D4A3 /* StrokeTransformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A70D1C8D07500012D4A3 /* StrokeTransformation.swift */; };
+		2AE7A72A1C8D07500012D4A3 /* ThreePointWeightAverage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A70E1C8D07500012D4A3 /* ThreePointWeightAverage.swift */; };
+		2AE7A72B1C8D07500012D4A3 /* WeightedByVelocity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A70F1C8D07500012D4A3 /* WeightedByVelocity.swift */; };
+		2AE7A72C1C8D07500012D4A3 /* Workspace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A7101C8D07500012D4A3 /* Workspace.swift */; };
+		2AE7A7351C8D075A0012D4A3 /* CatmullRomRendererExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A72E1C8D075A0012D4A3 /* CatmullRomRendererExtension.swift */; };
+		2AE7A7361C8D075A0012D4A3 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A72F1C8D075A0012D4A3 /* Color.swift */; };
+		2AE7A7371C8D075A0012D4A3 /* Drawable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A7301C8D075A0012D4A3 /* Drawable.swift */; };
+		2AE7A7381C8D075A0012D4A3 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A7311C8D075A0012D4A3 /* Renderer.swift */; };
+		2AE7A7391C8D075A0012D4A3 /* StampedStrokeRendererExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A7321C8D075A0012D4A3 /* StampedStrokeRendererExtension.swift */; };
+		2AE7A73A1C8D075A0012D4A3 /* TestRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A7331C8D075A0012D4A3 /* TestRenderer.swift */; };
+		2AE7A73B1C8D075A0012D4A3 /* UIRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A7341C8D075A0012D4A3 /* UIRenderer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +73,38 @@
 		2A3D9DB21C8B614A00F52C6B /* CVWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CVWrapper.mm; sourceTree = "<group>"; };
 		2AE7A6E21C8CC4010012D4A3 /* fetchCoords.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fetchCoords.cpp; sourceTree = "<group>"; };
 		2AE7A6E31C8CC4010012D4A3 /* fetchCoords.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fetchCoords.h; sourceTree = "<group>"; };
+		2AE7A6EB1C8D06470012D4A3 /* ActiveDrawingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActiveDrawingView.swift; sourceTree = "<group>"; };
+		2AE7A6EC1C8D06470012D4A3 /* DrawingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
+		2AE7A6F11C8D07500012D4A3 /* ActiveDrawing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActiveDrawing.swift; sourceTree = "<group>"; };
+		2AE7A6F31C8D07500012D4A3 /* Drawing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Drawing.swift; sourceTree = "<group>"; };
+		2AE7A6F41C8D07500012D4A3 /* Snapshot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Snapshot.swift; sourceTree = "<group>"; };
+		2AE7A6F51C8D07500012D4A3 /* SnapshotTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotTimeline.swift; sourceTree = "<group>"; };
+		2AE7A6F61C8D07500012D4A3 /* Timeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timeline.swift; sourceTree = "<group>"; };
+		2AE7A6FC1C8D07500012D4A3 /* Point.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
+		2AE7A6FE1C8D07500012D4A3 /* LinearFixedPenStroke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinearFixedPenStroke.swift; sourceTree = "<group>"; };
+		2AE7A6FF1C8D07500012D4A3 /* LinearVariablePenStroke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinearVariablePenStroke.swift; sourceTree = "<group>"; };
+		2AE7A7001C8D07500012D4A3 /* SmoothFixedGuidedStroke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmoothFixedGuidedStroke.swift; sourceTree = "<group>"; };
+		2AE7A7011C8D07500012D4A3 /* SmoothFixedPenStroke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmoothFixedPenStroke.swift; sourceTree = "<group>"; };
+		2AE7A7021C8D07500012D4A3 /* SmoothImageStampedStroke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmoothImageStampedStroke.swift; sourceTree = "<group>"; };
+		2AE7A7031C8D07500012D4A3 /* SmoothStampedStroke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmoothStampedStroke.swift; sourceTree = "<group>"; };
+		2AE7A7041C8D07500012D4A3 /* SmoothVariableGuidedStroke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmoothVariableGuidedStroke.swift; sourceTree = "<group>"; };
+		2AE7A7051C8D07500012D4A3 /* SmoothVariablePenStroke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmoothVariablePenStroke.swift; sourceTree = "<group>"; };
+		2AE7A7061C8D07500012D4A3 /* Stroke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stroke.swift; sourceTree = "<group>"; };
+		2AE7A7071C8D07500012D4A3 /* StrokeSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrokeSettings.swift; sourceTree = "<group>"; };
+		2AE7A70A1C8D07500012D4A3 /* ApplyRulerGuide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplyRulerGuide.swift; sourceTree = "<group>"; };
+		2AE7A70B1C8D07500012D4A3 /* PerpendicularOutset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerpendicularOutset.swift; sourceTree = "<group>"; };
+		2AE7A70C1C8D07500012D4A3 /* ScaleWeights.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaleWeights.swift; sourceTree = "<group>"; };
+		2AE7A70D1C8D07500012D4A3 /* StrokeTransformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrokeTransformation.swift; sourceTree = "<group>"; };
+		2AE7A70E1C8D07500012D4A3 /* ThreePointWeightAverage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreePointWeightAverage.swift; sourceTree = "<group>"; };
+		2AE7A70F1C8D07500012D4A3 /* WeightedByVelocity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeightedByVelocity.swift; sourceTree = "<group>"; };
+		2AE7A7101C8D07500012D4A3 /* Workspace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Workspace.swift; sourceTree = "<group>"; };
+		2AE7A72E1C8D075A0012D4A3 /* CatmullRomRendererExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatmullRomRendererExtension.swift; sourceTree = "<group>"; };
+		2AE7A72F1C8D075A0012D4A3 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		2AE7A7301C8D075A0012D4A3 /* Drawable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Drawable.swift; sourceTree = "<group>"; };
+		2AE7A7311C8D075A0012D4A3 /* Renderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+		2AE7A7321C8D075A0012D4A3 /* StampedStrokeRendererExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StampedStrokeRendererExtension.swift; sourceTree = "<group>"; };
+		2AE7A7331C8D075A0012D4A3 /* TestRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestRenderer.swift; sourceTree = "<group>"; };
+		2AE7A7341C8D075A0012D4A3 /* UIRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIRenderer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +128,8 @@
 		2A3D9D871C8B609000F52C6B = {
 			isa = PBXGroup;
 			children = (
+				2AE7A72D1C8D075A0012D4A3 /* Renderers */,
+				2AE7A6F01C8D07500012D4A3 /* Workspace */,
 				2A3D9D921C8B609000F52C6B /* CameraStylus */,
 				2A3D9DA41C8B609000F52C6B /* CameraStylusTests */,
 				2A3D9D911C8B609000F52C6B /* Products */,
@@ -82,6 +148,8 @@
 		2A3D9D921C8B609000F52C6B /* CameraStylus */ = {
 			isa = PBXGroup;
 			children = (
+				2AE7A6EB1C8D06470012D4A3 /* ActiveDrawingView.swift */,
+				2AE7A6EC1C8D06470012D4A3 /* DrawingView.swift */,
 				2A3D9D931C8B609000F52C6B /* AppDelegate.swift */,
 				2A3D9D951C8B609000F52C6B /* ViewController.swift */,
 				2A3D9D971C8B609000F52C6B /* Assets.xcassets */,
@@ -103,6 +171,74 @@
 				2A3D9DA71C8B609000F52C6B /* Info.plist */,
 			);
 			path = CameraStylusTests;
+			sourceTree = "<group>";
+		};
+		2AE7A6F01C8D07500012D4A3 /* Workspace */ = {
+			isa = PBXGroup;
+			children = (
+				2AE7A6F11C8D07500012D4A3 /* ActiveDrawing.swift */,
+				2AE7A6F21C8D07500012D4A3 /* Drawing */,
+				2AE7A6FC1C8D07500012D4A3 /* Point.swift */,
+				2AE7A6FD1C8D07500012D4A3 /* Strokes */,
+				2AE7A7101C8D07500012D4A3 /* Workspace.swift */,
+			);
+			path = Workspace;
+			sourceTree = "<group>";
+		};
+		2AE7A6F21C8D07500012D4A3 /* Drawing */ = {
+			isa = PBXGroup;
+			children = (
+				2AE7A6F31C8D07500012D4A3 /* Drawing.swift */,
+				2AE7A6F41C8D07500012D4A3 /* Snapshot.swift */,
+				2AE7A6F51C8D07500012D4A3 /* SnapshotTimeline.swift */,
+				2AE7A6F61C8D07500012D4A3 /* Timeline.swift */,
+			);
+			path = Drawing;
+			sourceTree = "<group>";
+		};
+		2AE7A6FD1C8D07500012D4A3 /* Strokes */ = {
+			isa = PBXGroup;
+			children = (
+				2AE7A6FE1C8D07500012D4A3 /* LinearFixedPenStroke.swift */,
+				2AE7A6FF1C8D07500012D4A3 /* LinearVariablePenStroke.swift */,
+				2AE7A7001C8D07500012D4A3 /* SmoothFixedGuidedStroke.swift */,
+				2AE7A7011C8D07500012D4A3 /* SmoothFixedPenStroke.swift */,
+				2AE7A7021C8D07500012D4A3 /* SmoothImageStampedStroke.swift */,
+				2AE7A7031C8D07500012D4A3 /* SmoothStampedStroke.swift */,
+				2AE7A7041C8D07500012D4A3 /* SmoothVariableGuidedStroke.swift */,
+				2AE7A7051C8D07500012D4A3 /* SmoothVariablePenStroke.swift */,
+				2AE7A7061C8D07500012D4A3 /* Stroke.swift */,
+				2AE7A7071C8D07500012D4A3 /* StrokeSettings.swift */,
+				2AE7A7081C8D07500012D4A3 /* StrokeTransformations */,
+			);
+			path = Strokes;
+			sourceTree = "<group>";
+		};
+		2AE7A7081C8D07500012D4A3 /* StrokeTransformations */ = {
+			isa = PBXGroup;
+			children = (
+				2AE7A70A1C8D07500012D4A3 /* ApplyRulerGuide.swift */,
+				2AE7A70B1C8D07500012D4A3 /* PerpendicularOutset.swift */,
+				2AE7A70C1C8D07500012D4A3 /* ScaleWeights.swift */,
+				2AE7A70D1C8D07500012D4A3 /* StrokeTransformation.swift */,
+				2AE7A70E1C8D07500012D4A3 /* ThreePointWeightAverage.swift */,
+				2AE7A70F1C8D07500012D4A3 /* WeightedByVelocity.swift */,
+			);
+			path = StrokeTransformations;
+			sourceTree = "<group>";
+		};
+		2AE7A72D1C8D075A0012D4A3 /* Renderers */ = {
+			isa = PBXGroup;
+			children = (
+				2AE7A72E1C8D075A0012D4A3 /* CatmullRomRendererExtension.swift */,
+				2AE7A72F1C8D075A0012D4A3 /* Color.swift */,
+				2AE7A7301C8D075A0012D4A3 /* Drawable.swift */,
+				2AE7A7311C8D075A0012D4A3 /* Renderer.swift */,
+				2AE7A7321C8D075A0012D4A3 /* StampedStrokeRendererExtension.swift */,
+				2AE7A7331C8D075A0012D4A3 /* TestRenderer.swift */,
+				2AE7A7341C8D075A0012D4A3 /* UIRenderer.swift */,
+			);
+			path = Renderers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,10 +341,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AE7A7371C8D075A0012D4A3 /* Drawable.swift in Sources */,
+				2AE7A71F1C8D07500012D4A3 /* SmoothImageStampedStroke.swift in Sources */,
+				2AE7A71A1C8D07500012D4A3 /* Point.swift in Sources */,
+				2AE7A71E1C8D07500012D4A3 /* SmoothFixedPenStroke.swift in Sources */,
+				2AE7A73B1C8D075A0012D4A3 /* UIRenderer.swift in Sources */,
 				2AE7A6E41C8CC4010012D4A3 /* fetchCoords.cpp in Sources */,
+				2AE7A7111C8D07500012D4A3 /* ActiveDrawing.swift in Sources */,
 				2A3D9D961C8B609000F52C6B /* ViewController.swift in Sources */,
+				2AE7A7211C8D07500012D4A3 /* SmoothVariableGuidedStroke.swift in Sources */,
+				2AE7A73A1C8D075A0012D4A3 /* TestRenderer.swift in Sources */,
+				2AE7A7381C8D075A0012D4A3 /* Renderer.swift in Sources */,
+				2AE7A7291C8D07500012D4A3 /* StrokeTransformation.swift in Sources */,
+				2AE7A7241C8D07500012D4A3 /* StrokeSettings.swift in Sources */,
+				2AE7A71D1C8D07500012D4A3 /* SmoothFixedGuidedStroke.swift in Sources */,
+				2AE7A6ED1C8D06470012D4A3 /* ActiveDrawingView.swift in Sources */,
+				2AE7A72C1C8D07500012D4A3 /* Workspace.swift in Sources */,
+				2AE7A7271C8D07500012D4A3 /* PerpendicularOutset.swift in Sources */,
+				2AE7A7361C8D075A0012D4A3 /* Color.swift in Sources */,
+				2AE7A7261C8D07500012D4A3 /* ApplyRulerGuide.swift in Sources */,
+				2AE7A7121C8D07500012D4A3 /* Drawing.swift in Sources */,
+				2AE7A6EE1C8D06470012D4A3 /* DrawingView.swift in Sources */,
+				2AE7A7141C8D07500012D4A3 /* SnapshotTimeline.swift in Sources */,
+				2AE7A7391C8D075A0012D4A3 /* StampedStrokeRendererExtension.swift in Sources */,
+				2AE7A7281C8D07500012D4A3 /* ScaleWeights.swift in Sources */,
+				2AE7A7351C8D075A0012D4A3 /* CatmullRomRendererExtension.swift in Sources */,
+				2AE7A71C1C8D07500012D4A3 /* LinearVariablePenStroke.swift in Sources */,
+				2AE7A7231C8D07500012D4A3 /* Stroke.swift in Sources */,
+				2AE7A7131C8D07500012D4A3 /* Snapshot.swift in Sources */,
 				2A3D9DB31C8B614A00F52C6B /* CVWrapper.mm in Sources */,
+				2AE7A7221C8D07500012D4A3 /* SmoothVariablePenStroke.swift in Sources */,
+				2AE7A72B1C8D07500012D4A3 /* WeightedByVelocity.swift in Sources */,
 				2A3D9D941C8B609000F52C6B /* AppDelegate.swift in Sources */,
+				2AE7A71B1C8D07500012D4A3 /* LinearFixedPenStroke.swift in Sources */,
+				2AE7A72A1C8D07500012D4A3 /* ThreePointWeightAverage.swift in Sources */,
+				2AE7A7201C8D07500012D4A3 /* SmoothStampedStroke.swift in Sources */,
+				2AE7A7151C8D07500012D4A3 /* Timeline.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +501,7 @@
 				INFOPLIST_FILE = CameraStylus/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				"LIBRARY_SEARCH_PATHS[arch=*]" = /usr/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				"OTHER_LDFLAGS[arch=*]" = (
 					"-lopencv_calib3d",
 					"-lopencv_core",
@@ -370,6 +539,7 @@
 				INFOPLIST_FILE = CameraStylus/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				"LIBRARY_SEARCH_PATHS[arch=*]" = /usr/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				"OTHER_LDFLAGS[arch=*]" = (
 					"-lopencv_calib3d",
 					"-lopencv_core",
