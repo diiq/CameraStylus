@@ -130,12 +130,12 @@
 		2A3D9D871C8B609000F52C6B = {
 			isa = PBXGroup;
 			children = (
-				2AE7A72D1C8D075A0012D4A3 /* Renderers */,
-				2AE7A6F01C8D07500012D4A3 /* Workspace */,
 				2A9F24C81C98EE110036F105 /* CameraBlobCoords */,
 				2A3D9D921C8B609000F52C6B /* CameraStylus */,
 				2A3D9DA41C8B609000F52C6B /* CameraStylusTests */,
 				2A3D9D911C8B609000F52C6B /* Products */,
+				2AE7A72D1C8D075A0012D4A3 /* Renderers */,
+				2AE7A6F01C8D07500012D4A3 /* Workspace */,
 			);
 			sourceTree = "<group>";
 		};
@@ -152,12 +152,12 @@
 			isa = PBXGroup;
 			children = (
 				2AE7A6EB1C8D06470012D4A3 /* ActiveDrawingView.swift */,
-				2AE7A6EC1C8D06470012D4A3 /* DrawingView.swift */,
 				2A3D9D931C8B609000F52C6B /* AppDelegate.swift */,
-				2A3D9D951C8B609000F52C6B /* ViewController.swift */,
 				2A3D9D971C8B609000F52C6B /* Assets.xcassets */,
-				2A3D9D991C8B609000F52C6B /* Main.storyboard */,
+				2AE7A6EC1C8D06470012D4A3 /* DrawingView.swift */,
 				2A3D9D9C1C8B609000F52C6B /* Info.plist */,
+				2A3D9D991C8B609000F52C6B /* Main.storyboard */,
+				2A3D9D951C8B609000F52C6B /* ViewController.swift */,
 			);
 			path = CameraStylus;
 			sourceTree = "<group>";
@@ -176,22 +176,21 @@
 			children = (
 				2A3D9DB01C8B610500F52C6B /* CVWrapper.h */,
 				2A3D9DB21C8B614A00F52C6B /* CVWrapper.mm */,
-				2AE7A6E21C8CC4010012D4A3 /* fetchCoords.cpp */,
-				2AE7A6E31C8CC4010012D4A3 /* fetchCoords.h */,
 				2A3D9DB11C8B614900F52C6B /* CameraStylus-Bridging-Header.h */,
 				2A9F24C91C98EE5B0036F105 /* cameraBlobCoords.swift */,
+				2AE7A6E21C8CC4010012D4A3 /* fetchCoords.cpp */,
+				2AE7A6E31C8CC4010012D4A3 /* fetchCoords.h */,
 			);
-			name = CameraBlobCoords;
-			path = CameraStylus;
+			path = CameraBlobCoords;
 			sourceTree = "<group>";
 		};
 		2AE7A6F01C8D07500012D4A3 /* Workspace */ = {
 			isa = PBXGroup;
 			children = (
-				2AE7A6F11C8D07500012D4A3 /* ActiveDrawing.swift */,
 				2AE7A6F21C8D07500012D4A3 /* Drawing */,
-				2AE7A6FC1C8D07500012D4A3 /* Point.swift */,
 				2AE7A6FD1C8D07500012D4A3 /* Strokes */,
+				2AE7A6F11C8D07500012D4A3 /* ActiveDrawing.swift */,
+				2AE7A6FC1C8D07500012D4A3 /* Point.swift */,
 				2AE7A7101C8D07500012D4A3 /* Workspace.swift */,
 			);
 			path = Workspace;
@@ -211,6 +210,7 @@
 		2AE7A6FD1C8D07500012D4A3 /* Strokes */ = {
 			isa = PBXGroup;
 			children = (
+				2AE7A7081C8D07500012D4A3 /* StrokeTransformations */,
 				2AE7A6FE1C8D07500012D4A3 /* LinearFixedPenStroke.swift */,
 				2AE7A6FF1C8D07500012D4A3 /* LinearVariablePenStroke.swift */,
 				2AE7A7001C8D07500012D4A3 /* SmoothFixedGuidedStroke.swift */,
@@ -221,7 +221,6 @@
 				2AE7A7051C8D07500012D4A3 /* SmoothVariablePenStroke.swift */,
 				2AE7A7061C8D07500012D4A3 /* Stroke.swift */,
 				2AE7A7071C8D07500012D4A3 /* StrokeSettings.swift */,
-				2AE7A7081C8D07500012D4A3 /* StrokeTransformations */,
 			);
 			path = Strokes;
 			sourceTree = "<group>";
@@ -418,6 +417,7 @@
 				2A3D9D9A1C8B609000F52C6B /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
