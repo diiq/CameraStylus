@@ -8,7 +8,6 @@ class DrawingView: NSImageView {
   }
 
   override func drawRect(rect: CGRect) {
-    Swift.print("drawin the drawin")
     let context = NSGraphicsContext.currentContext()!
     let renderer = UIRenderer(bounds: bounds)
     renderer.context = context.CGContext

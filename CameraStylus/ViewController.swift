@@ -26,17 +26,10 @@ class ViewController: NSViewController {
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_BACKGROUND, 0), { () -> Void in
       var count = 0
       while true {
-        var it = false
-        var res = [String : AnyObject]()
-
-        while !it {
-          res = CVWrapper.getCoords() as! [String : AnyObject]
-          it = res["success"] as! Bool
-        }
-        print(res)
-        self.activeDrawingView.addPoints([Point(
-          x: res["x"] as! Double,
-          y: res["y"] as! Double)])
+        let coords = blobCoords();
+        //print(coords)
+        guard coords.present else { continue; }
+        self.activeDrawingView.addPoints([coords.toPoint()])
         if count > 20 {
           self.activeDrawingView.endStroke()
           count = 0

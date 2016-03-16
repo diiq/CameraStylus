@@ -12,7 +12,7 @@
 
 @implementation CVWrapper
 
-+ (NSDictionary*) getCoords;
++ (NSDictionary*) cameraCreateBlobCoords;
 {
   double x = 0;
   double y = 0;

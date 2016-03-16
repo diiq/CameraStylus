@@ -13,6 +13,7 @@
 		2A3D9D9B1C8B609000F52C6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A3D9D991C8B609000F52C6B /* Main.storyboard */; };
 		2A3D9DA61C8B609000F52C6B /* CameraStylusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3D9DA51C8B609000F52C6B /* CameraStylusTests.swift */; };
 		2A3D9DB31C8B614A00F52C6B /* CVWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2A3D9DB21C8B614A00F52C6B /* CVWrapper.mm */; };
+		2A9F24CA1C98EE5B0036F105 /* cameraBlobCoords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9F24C91C98EE5B0036F105 /* cameraBlobCoords.swift */; };
 		2AE7A6E41C8CC4010012D4A3 /* fetchCoords.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A6E21C8CC4010012D4A3 /* fetchCoords.cpp */; };
 		2AE7A6ED1C8D06470012D4A3 /* ActiveDrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A6EB1C8D06470012D4A3 /* ActiveDrawingView.swift */; };
 		2AE7A6EE1C8D06470012D4A3 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A6EC1C8D06470012D4A3 /* DrawingView.swift */; };
@@ -71,6 +72,7 @@
 		2A3D9DB01C8B610500F52C6B /* CVWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVWrapper.h; sourceTree = "<group>"; };
 		2A3D9DB11C8B614900F52C6B /* CameraStylus-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CameraStylus-Bridging-Header.h"; sourceTree = "<group>"; };
 		2A3D9DB21C8B614A00F52C6B /* CVWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CVWrapper.mm; sourceTree = "<group>"; };
+		2A9F24C91C98EE5B0036F105 /* cameraBlobCoords.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cameraBlobCoords.swift; sourceTree = "<group>"; };
 		2AE7A6E21C8CC4010012D4A3 /* fetchCoords.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fetchCoords.cpp; sourceTree = "<group>"; };
 		2AE7A6E31C8CC4010012D4A3 /* fetchCoords.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fetchCoords.h; sourceTree = "<group>"; };
 		2AE7A6EB1C8D06470012D4A3 /* ActiveDrawingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActiveDrawingView.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 			children = (
 				2AE7A72D1C8D075A0012D4A3 /* Renderers */,
 				2AE7A6F01C8D07500012D4A3 /* Workspace */,
+				2A9F24C81C98EE110036F105 /* CameraBlobCoords */,
 				2A3D9D921C8B609000F52C6B /* CameraStylus */,
 				2A3D9DA41C8B609000F52C6B /* CameraStylusTests */,
 				2A3D9D911C8B609000F52C6B /* Products */,
@@ -155,11 +158,6 @@
 				2A3D9D971C8B609000F52C6B /* Assets.xcassets */,
 				2A3D9D991C8B609000F52C6B /* Main.storyboard */,
 				2A3D9D9C1C8B609000F52C6B /* Info.plist */,
-				2A3D9DB01C8B610500F52C6B /* CVWrapper.h */,
-				2A3D9DB21C8B614A00F52C6B /* CVWrapper.mm */,
-				2AE7A6E21C8CC4010012D4A3 /* fetchCoords.cpp */,
-				2AE7A6E31C8CC4010012D4A3 /* fetchCoords.h */,
-				2A3D9DB11C8B614900F52C6B /* CameraStylus-Bridging-Header.h */,
 			);
 			path = CameraStylus;
 			sourceTree = "<group>";
@@ -171,6 +169,20 @@
 				2A3D9DA71C8B609000F52C6B /* Info.plist */,
 			);
 			path = CameraStylusTests;
+			sourceTree = "<group>";
+		};
+		2A9F24C81C98EE110036F105 /* CameraBlobCoords */ = {
+			isa = PBXGroup;
+			children = (
+				2A3D9DB01C8B610500F52C6B /* CVWrapper.h */,
+				2A3D9DB21C8B614A00F52C6B /* CVWrapper.mm */,
+				2AE7A6E21C8CC4010012D4A3 /* fetchCoords.cpp */,
+				2AE7A6E31C8CC4010012D4A3 /* fetchCoords.h */,
+				2A3D9DB11C8B614900F52C6B /* CameraStylus-Bridging-Header.h */,
+				2A9F24C91C98EE5B0036F105 /* cameraBlobCoords.swift */,
+			);
+			name = CameraBlobCoords;
+			path = CameraStylus;
 			sourceTree = "<group>";
 		};
 		2AE7A6F01C8D07500012D4A3 /* Workspace */ = {
@@ -359,6 +371,7 @@
 				2AE7A72C1C8D07500012D4A3 /* Workspace.swift in Sources */,
 				2AE7A7271C8D07500012D4A3 /* PerpendicularOutset.swift in Sources */,
 				2AE7A7361C8D075A0012D4A3 /* Color.swift in Sources */,
+				2A9F24CA1C98EE5B0036F105 /* cameraBlobCoords.swift in Sources */,
 				2AE7A7261C8D07500012D4A3 /* ApplyRulerGuide.swift in Sources */,
 				2AE7A7121C8D07500012D4A3 /* Drawing.swift in Sources */,
 				2AE7A6EE1C8D06470012D4A3 /* DrawingView.swift in Sources */,

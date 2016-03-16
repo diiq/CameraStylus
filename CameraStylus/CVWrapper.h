@@ -10,7 +10,7 @@
 
 @interface CVWrapper : NSObject
 
-+ (NSDictionary*) getCoords;
++ (NSDictionary*) cameraCreateBlobCoords;
 + (void) openCamera;
 
 @end
