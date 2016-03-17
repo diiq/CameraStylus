@@ -131,11 +131,11 @@
 			isa = PBXGroup;
 			children = (
 				2A9F24C81C98EE110036F105 /* CameraBlobCoords */,
-				2A3D9D921C8B609000F52C6B /* CameraStylus */,
+				2A3D9D921C8B609000F52C6B /* Application */,
 				2A3D9DA41C8B609000F52C6B /* CameraStylusTests */,
 				2A3D9D911C8B609000F52C6B /* Products */,
 				2AE7A72D1C8D075A0012D4A3 /* Renderers */,
-				2AE7A6F01C8D07500012D4A3 /* Workspace */,
+				2AE7A6F01C8D07500012D4A3 /* DrawingWorkspace */,
 			);
 			sourceTree = "<group>";
 		};
@@ -148,7 +148,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2A3D9D921C8B609000F52C6B /* CameraStylus */ = {
+		2A3D9D921C8B609000F52C6B /* Application */ = {
 			isa = PBXGroup;
 			children = (
 				2AE7A6EB1C8D06470012D4A3 /* ActiveDrawingView.swift */,
@@ -159,6 +159,7 @@
 				2A3D9D991C8B609000F52C6B /* Main.storyboard */,
 				2A3D9D951C8B609000F52C6B /* ViewController.swift */,
 			);
+			name = Application;
 			path = CameraStylus;
 			sourceTree = "<group>";
 		};
@@ -184,7 +185,7 @@
 			path = CameraBlobCoords;
 			sourceTree = "<group>";
 		};
-		2AE7A6F01C8D07500012D4A3 /* Workspace */ = {
+		2AE7A6F01C8D07500012D4A3 /* DrawingWorkspace */ = {
 			isa = PBXGroup;
 			children = (
 				2AE7A6F21C8D07500012D4A3 /* Drawing */,
@@ -193,6 +194,7 @@
 				2AE7A6FC1C8D07500012D4A3 /* Point.swift */,
 				2AE7A7101C8D07500012D4A3 /* Workspace.swift */,
 			);
+			name = DrawingWorkspace;
 			path = Workspace;
 			sourceTree = "<group>";
 		};
@@ -536,7 +538,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.diiq.CameraStylus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "CameraStylus/CameraStylus-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "CameraBlobCoords/CameraStylus-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -574,7 +576,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.diiq.CameraStylus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "CameraStylus/CameraStylus-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "CameraBlobCoords/CameraStylus-Bridging-Header.h";
 			};
 			name = Release;
 		};

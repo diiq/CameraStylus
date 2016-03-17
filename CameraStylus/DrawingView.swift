@@ -1,9 +1,9 @@
 import AppKit
 
 class DrawingView: NSImageView {
-  var workspace: Workspace<CGImage, Int>!
+  var workspace: Workspace<CGLayer, Int>!
 
-  func setup(workspace: Workspace<CGImage, Int>) {
+  func setup(workspace: Workspace<CGLayer, Int>) {
     self.workspace = workspace
   }
 

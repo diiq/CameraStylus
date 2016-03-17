@@ -47,8 +47,7 @@ class ActiveDrawing<I, IndexType: Hashable> : ImageDrawable {
     let minX = (rects.map { $0.minX }).minElement()!
     let minY = (rects.map { $0.minY }).minElement()!
 
-    return (x: 0, y: 0, width: 1280, height: 900)
-    //return (x: minX, y: minY, width: maxX - minX, height: maxY - minY)
+    return (x: minX, y: minY, width: maxX - minX, height: maxY - minY)
   }
 
   func forgetPredictions(index: IndexType) {
@@ -63,7 +62,7 @@ class ActiveDrawing<I, IndexType: Hashable> : ImageDrawable {
     for stroke in strokesByIndex.values {
       stroke.drawUndrawnPoints(renderer)
     }
-    //frozen = renderer.currentImage
+    frozen = renderer.currentImage
     for stroke in strokesByIndex.values {
       stroke.drawPredictedPoints(renderer)
     }

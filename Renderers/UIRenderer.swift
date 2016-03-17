@@ -2,13 +2,14 @@ import AppKit
 
 /// Renders drawables into a CGContext
 class UIRenderer: Renderer, ImageRenderer {
-  typealias ImageType = CGImage
+  typealias ImageType = CGLayer
   var bounds: CGRect
-  var context : CGContext!
+  var context: CGContext!
+  var layer: CGLayer!
   var currentColor = NSColor(red:0.2, green:0.2, blue:0.2, alpha:1.0).CGColor
   var currentImage: ImageType {
     get {
-      return CGBitmapContextCreateImage(context)!
+      return layer
     }
   }
 
@@ -90,11 +91,7 @@ class UIRenderer: Renderer, ImageRenderer {
 
   func image(image: ImageType) {
     // Gotta figure out scaling here.
-    CGContextTranslateCTM(context, 0, bounds.height)
-    CGContextScaleCTM(context, 1.0, -1.0)
-    CGContextDrawImage(context, bounds , image)
-    CGContextScaleCTM(context, 1.0, -1.0)
-    CGContextTranslateCTM(context, 0, -bounds.height)
+    CGContextDrawLayerAtPoint(context, CGPoint(x: 0, y: 0), image)
   }
 
   func placeImage(start start: Point, width: Double, height: Double, name: String) {
