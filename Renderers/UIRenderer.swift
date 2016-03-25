@@ -9,6 +9,7 @@ class UIRenderer: Renderer, ImageRenderer {
   var currentColor = NSColor(red:0.2, green:0.2, blue:0.2, alpha:1.0).CGColor
   var currentImage: ImageType {
     get {
+      // TODO Render the layer into another layer? into a bitmap context? something.
       return layer
     }
   }
