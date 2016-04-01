@@ -12,7 +12,7 @@ class ActiveDrawing<I, IndexType: Hashable> : ImageDrawable {
   var strokesByIndex = [IndexType : Stroke]()
   var frozen: ImageType? = nil
   var strokeFactory: ((points: [Point], transforms: [StrokeTransformation]) -> Stroke)!
-  var scalar: Double = 1
+  var scalar: Double = 20
 
   func updateStroke(index: IndexType, points: [Point], transforms: [StrokeTransformation]) {
     let stroke = strokesByIndex[index] ?? newStrokeForIndex(index, transforms: transforms)

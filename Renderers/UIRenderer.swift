@@ -91,7 +91,6 @@ class UIRenderer: Renderer, ImageRenderer {
   }
 
   func image(image: ImageType) {
-    // Gotta figure out scaling here.
     CGContextDrawLayerAtPoint(context, CGPoint(x: 0, y: 0), image)
   }
 

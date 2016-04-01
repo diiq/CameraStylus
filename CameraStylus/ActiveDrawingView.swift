@@ -3,7 +3,8 @@ import AppKit
 class ActiveDrawingView: NSImageView {
   var workspace: Workspace<CGLayer, Int>!
   var drawingView: DrawingView!
-
+  var hasActiveStroke: Bool = false
+  
   func setup(workspace: Workspace<CGLayer, Int>) {
     self.workspace = workspace
     workspace.activeDrawing.strokeFactory = SmoothVariableGuidedStroke.init
@@ -19,6 +20,7 @@ class ActiveDrawingView: NSImageView {
   }
 
   func addPoints(points: [Point]) {
+    hasActiveStroke = true
     // TODO clean up this mess
     workspace.forgetActiveStrokePredictions(1)
     // Where '1' is the index touch from which all points are coalesced
@@ -30,9 +32,12 @@ class ActiveDrawingView: NSImageView {
   }
 
   func endStroke() {
-    workspace.commitActiveStroke(1)
-    drawingView.needsDisplay = true
-    self.needsDisplay = true
+    if hasActiveStroke {
+      workspace.commitActiveStroke(1)
+      drawingView.needsDisplay = true
+      self.needsDisplay = true
+    }
+    hasActiveStroke = false
   }
 
   func cancelStroke() {

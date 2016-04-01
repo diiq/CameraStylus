@@ -35,8 +35,8 @@ bool fetchCoords(double &x, double &y) {
   cvtColor(image, image, COLOR_BGR2HSV);
 
   // Threshold by color
-  Scalar lower_bound = Scalar(100, 175, 120);
-  Scalar upper_bound = Scalar(130, 255, 255);
+  Scalar lower_bound = Scalar(150, 170, 170);
+  Scalar upper_bound = Scalar(170, 255, 255);
   inRange(image, lower_bound, upper_bound, image);
   //imshow("threshold", image);
   // Trace the contours of the thresholded image
@@ -45,7 +45,7 @@ bool fetchCoords(double &x, double &y) {
   findContours(image, contours, hierarchy, RETR_LIST, CHAIN_APPROX_SIMPLE);
 
   // Find the biggest contour
-  int max_area = 300;
+  int max_area = 0;
   vector<Point> best_contour;
   for (unsigned i=0; i < contours.size(); i++) {
     int area = contourArea(contours[i]);
