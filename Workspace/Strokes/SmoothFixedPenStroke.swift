@@ -5,8 +5,8 @@ let NonPhotoBlue = Color(r: 0.64, g: 0.86, b: 0.93, a: 1)
  nor any roundness; it's just a line.
  */
 class SmoothFixedPenStroke : BaseStroke {
-  let brushSize: Double = 1
-  override var undrawnPointOffset: Int { return 3 }
+  let brushSize: Double = 5
+  override var undrawnPointOffset: Int { return 15 }
 
   override func drawPoints(start: Int, _ end: Int, renderer: Renderer, initial: Bool=true, final: Bool=true) {
     renderer.color(NonPhotoBlue)
