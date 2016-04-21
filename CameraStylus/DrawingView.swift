@@ -1,26 +1,36 @@
 import AppKit
 
 class DrawingView: NSImageView {
-  var workspace: Workspace<CGLayer, Int>!
+  let drawing = Drawing<CGLayer>()
 
-  func setup(workspace: Workspace<CGLayer, Int>) {
-    self.workspace = workspace
+  func setup() {
+    drawing.strokeFactory = SmoothFixedPenStroke.init
   }
 
   override func drawRect(rect: CGRect) {
     let context = NSGraphicsContext.currentContext()!
     let renderer = UIRenderer(bounds: bounds)
     renderer.context = context.CGContext
-    workspace?.drawDrawing(renderer)
+    drawing.draw(renderer)
   }
 
   func undoStroke() {
-    workspace.undo()
+    drawing.undoStroke()
     self.needsDisplay = true
   }
 
   func redoStroke() {
-    workspace.redo()
+    drawing.redoStroke()
     self.needsDisplay = true
+  }
+
+  func endStroke() {
+    drawing.endStroke()
+    setNeedsDisplay()
+  }
+
+  func addPoint(point: Point) {
+    drawing.updateStroke(point)
+    setNeedsDisplay()
   }
 }

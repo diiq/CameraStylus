@@ -16,9 +16,7 @@
 		2A9F24CA1C98EE5B0036F105 /* cameraBlobCoords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9F24C91C98EE5B0036F105 /* cameraBlobCoords.swift */; };
 		2AD7E9431CAEFEEF00186599 /* PerspectiveProjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7E9421CAEFEEF00186599 /* PerspectiveProjection.swift */; };
 		2AE7A6E41C8CC4010012D4A3 /* fetchCoords.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A6E21C8CC4010012D4A3 /* fetchCoords.cpp */; };
-		2AE7A6ED1C8D06470012D4A3 /* ActiveDrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A6EB1C8D06470012D4A3 /* ActiveDrawingView.swift */; };
 		2AE7A6EE1C8D06470012D4A3 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A6EC1C8D06470012D4A3 /* DrawingView.swift */; };
-		2AE7A7111C8D07500012D4A3 /* ActiveDrawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A6F11C8D07500012D4A3 /* ActiveDrawing.swift */; };
 		2AE7A7121C8D07500012D4A3 /* Drawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A6F31C8D07500012D4A3 /* Drawing.swift */; };
 		2AE7A7131C8D07500012D4A3 /* Snapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A6F41C8D07500012D4A3 /* Snapshot.swift */; };
 		2AE7A7141C8D07500012D4A3 /* SnapshotTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A6F51C8D07500012D4A3 /* SnapshotTimeline.swift */; };
@@ -40,7 +38,6 @@
 		2AE7A7291C8D07500012D4A3 /* StrokeTransformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A70D1C8D07500012D4A3 /* StrokeTransformation.swift */; };
 		2AE7A72A1C8D07500012D4A3 /* ThreePointWeightAverage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A70E1C8D07500012D4A3 /* ThreePointWeightAverage.swift */; };
 		2AE7A72B1C8D07500012D4A3 /* WeightedByVelocity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A70F1C8D07500012D4A3 /* WeightedByVelocity.swift */; };
-		2AE7A72C1C8D07500012D4A3 /* Workspace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A7101C8D07500012D4A3 /* Workspace.swift */; };
 		2AE7A7351C8D075A0012D4A3 /* CatmullRomRendererExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A72E1C8D075A0012D4A3 /* CatmullRomRendererExtension.swift */; };
 		2AE7A7361C8D075A0012D4A3 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A72F1C8D075A0012D4A3 /* Color.swift */; };
 		2AE7A7371C8D075A0012D4A3 /* Drawable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A7301C8D075A0012D4A3 /* Drawable.swift */; };
@@ -77,9 +74,7 @@
 		2AD7E9421CAEFEEF00186599 /* PerspectiveProjection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerspectiveProjection.swift; sourceTree = "<group>"; };
 		2AE7A6E21C8CC4010012D4A3 /* fetchCoords.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fetchCoords.cpp; sourceTree = "<group>"; };
 		2AE7A6E31C8CC4010012D4A3 /* fetchCoords.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fetchCoords.h; sourceTree = "<group>"; };
-		2AE7A6EB1C8D06470012D4A3 /* ActiveDrawingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActiveDrawingView.swift; sourceTree = "<group>"; };
 		2AE7A6EC1C8D06470012D4A3 /* DrawingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
-		2AE7A6F11C8D07500012D4A3 /* ActiveDrawing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActiveDrawing.swift; sourceTree = "<group>"; };
 		2AE7A6F31C8D07500012D4A3 /* Drawing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Drawing.swift; sourceTree = "<group>"; };
 		2AE7A6F41C8D07500012D4A3 /* Snapshot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Snapshot.swift; sourceTree = "<group>"; };
 		2AE7A6F51C8D07500012D4A3 /* SnapshotTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotTimeline.swift; sourceTree = "<group>"; };
@@ -101,7 +96,6 @@
 		2AE7A70D1C8D07500012D4A3 /* StrokeTransformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrokeTransformation.swift; sourceTree = "<group>"; };
 		2AE7A70E1C8D07500012D4A3 /* ThreePointWeightAverage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreePointWeightAverage.swift; sourceTree = "<group>"; };
 		2AE7A70F1C8D07500012D4A3 /* WeightedByVelocity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeightedByVelocity.swift; sourceTree = "<group>"; };
-		2AE7A7101C8D07500012D4A3 /* Workspace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Workspace.swift; sourceTree = "<group>"; };
 		2AE7A72E1C8D075A0012D4A3 /* CatmullRomRendererExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatmullRomRendererExtension.swift; sourceTree = "<group>"; };
 		2AE7A72F1C8D075A0012D4A3 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		2AE7A7301C8D075A0012D4A3 /* Drawable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Drawable.swift; sourceTree = "<group>"; };
@@ -153,7 +147,6 @@
 		2A3D9D921C8B609000F52C6B /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				2AE7A6EB1C8D06470012D4A3 /* ActiveDrawingView.swift */,
 				2A3D9D931C8B609000F52C6B /* AppDelegate.swift */,
 				2A3D9D971C8B609000F52C6B /* Assets.xcassets */,
 				2AE7A6EC1C8D06470012D4A3 /* DrawingView.swift */,
@@ -192,10 +185,8 @@
 			children = (
 				2AE7A6F21C8D07500012D4A3 /* Drawing */,
 				2AE7A6FD1C8D07500012D4A3 /* Strokes */,
-				2AE7A6F11C8D07500012D4A3 /* ActiveDrawing.swift */,
 				2AE7A6FC1C8D07500012D4A3 /* Point.swift */,
 				2AD7E9421CAEFEEF00186599 /* PerspectiveProjection.swift */,
-				2AE7A7101C8D07500012D4A3 /* Workspace.swift */,
 			);
 			name = DrawingWorkspace;
 			path = Workspace;
@@ -363,7 +354,6 @@
 				2AE7A71E1C8D07500012D4A3 /* SmoothFixedPenStroke.swift in Sources */,
 				2AE7A73B1C8D075A0012D4A3 /* UIRenderer.swift in Sources */,
 				2AE7A6E41C8CC4010012D4A3 /* fetchCoords.cpp in Sources */,
-				2AE7A7111C8D07500012D4A3 /* ActiveDrawing.swift in Sources */,
 				2AD7E9431CAEFEEF00186599 /* PerspectiveProjection.swift in Sources */,
 				2A3D9D961C8B609000F52C6B /* ViewController.swift in Sources */,
 				2AE7A7211C8D07500012D4A3 /* SmoothVariableGuidedStroke.swift in Sources */,
@@ -372,8 +362,6 @@
 				2AE7A7291C8D07500012D4A3 /* StrokeTransformation.swift in Sources */,
 				2AE7A7241C8D07500012D4A3 /* StrokeSettings.swift in Sources */,
 				2AE7A71D1C8D07500012D4A3 /* SmoothFixedGuidedStroke.swift in Sources */,
-				2AE7A6ED1C8D06470012D4A3 /* ActiveDrawingView.swift in Sources */,
-				2AE7A72C1C8D07500012D4A3 /* Workspace.swift in Sources */,
 				2AE7A7271C8D07500012D4A3 /* PerpendicularOutset.swift in Sources */,
 				2AE7A7361C8D075A0012D4A3 /* Color.swift in Sources */,
 				2A9F24CA1C98EE5B0036F105 /* cameraBlobCoords.swift in Sources */,

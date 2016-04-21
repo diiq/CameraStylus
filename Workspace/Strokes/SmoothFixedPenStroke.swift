@@ -12,6 +12,7 @@ class SmoothFixedPenStroke : BaseStroke {
     renderer.color(NonPhotoBlue)
 
     guard points.count > 2 else {
+      guard points.count > 1 else { return }
       if initial && final {
         renderer.moveTo(points[start])
         renderer.linear(Array(points[start..<end]))
