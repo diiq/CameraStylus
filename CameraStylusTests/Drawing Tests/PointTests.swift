@@ -1,5 +1,5 @@
 import XCTest
-@testable import Crow_Quill
+@testable import CameraStylus
 
 class PointTests: XCTestCase {
   func testLength() {

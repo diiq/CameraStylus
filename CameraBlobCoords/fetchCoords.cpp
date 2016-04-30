@@ -1,11 +1,3 @@
-/////////////////////////
-/*
-
- // Copyright (C) 2000-2008, Intel Corporation, all rights reserved.
- // Copyright (C) 2009, Willow Garage Inc., all rights reserved.
-*/
-
-
 #include "opencv2/videoio.hpp"
 
 #include "fetchCoords.h"
@@ -14,33 +6,73 @@
 using namespace std;
 using namespace cv;
 VideoCapture camera;
-double scale = 0.25;
+Size scale = cvSize(800, 600);
+Scalar lower_bound_hsv = Scalar(12, 180, 200);
+Scalar upper_bound_hsv = Scalar(23, 255, 255);
+bool showImages = true;
 
-void openCamera() {
-  camera = VideoCapture();
-  camera.open(1);
-}
+// Exports
 
 bool fetchCoords(double &x, double &y) {
   // Fetch an image
-  bool success = false;
-  Mat orig_image;
-  while(!success) {
-    success = camera.read(orig_image);
+  Mat image = captureImage();
+  image = resizeImage(image);
+  image = hsvImage(image);
+  image = colorThresholdImage(image);
+  // Threshold by color
+  vector<Point> blob = biggestBlob(image);
+
+  if (blob.empty()) {
+    return false;
   }
 
+  Moments m = moments(blob);
+  x = m.m10/(m.m00);
+  y = m.m01/(m.m00);
+  return true;
+}
+
+// Private
+
+void openCamera() {
+  camera = VideoCapture();
+  camera.open(0);
+}
+
+Mat captureImage() {
+  bool success = false;
   Mat image;
-  resize(orig_image, image, cvSize(0, 0), scale, scale);
+  while(!success) {
+    success = camera.read(image);
+  }
+  return image;
+}
 
-  // Convert to HSV
-  cvtColor(image, image, COLOR_BGR2HSV);
-  imshow("raw", image);
+Mat resizeImage(Mat orig_image) {
+  Mat image;
+  resize(orig_image, image, scale);
+  return image;
+}
 
-  // Threshold by color  37, 86, 100
-  Scalar lower_bound = Scalar(12, 180, 200);
-  Scalar upper_bound = Scalar(23, 255, 255);
-  inRange(image, lower_bound, upper_bound, image);
-  //imshow("threshold", image);
+Mat hsvImage(Mat orig_image) {
+  Mat image;
+  cvtColor(orig_image, image, COLOR_BGR2HSV);
+  if (showImages) {
+    imshow("raw", image);
+  }
+  return image;
+}
+
+Mat colorThresholdImage(Mat orig_image) {
+  Mat image;
+  inRange(orig_image, lower_bound_hsv, upper_bound_hsv, image);
+  if (showImages) {
+    imshow("threshold", image);
+  }
+  return image;
+}
+
+vector<Point> biggestBlob(Mat image) {
   // Trace the contours of the thresholded image
   vector<vector<Point> > contours;
   vector<Vec4i> hierarchy;
@@ -56,14 +88,8 @@ bool fetchCoords(double &x, double &y) {
       max_area = area;
     }
   }
-  if (best_contour.empty()) {
-    return false;
-  }
-
-  Moments m = moments(best_contour);
-  x = m.m10/(m.m00 * scale);
-  y = m.m01/(m.m00 * scale);
-  return true;
+  return best_contour;
 }
+
 
 

@@ -234,8 +234,6 @@
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Application</string>
 			<key>path</key>
 			<string>Application</string>
 			<key>sourceTree</key>
@@ -347,9 +345,7 @@
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>2A891FCC1CD4FAC90045CBF2</string>
 				<string>2A891FC21CD4FAC90045CBF2</string>
-				<string>2A891FCD1CD4FAC90045CBF2</string>
 				<string>2A891FCB1CD4FAC90045CBF2</string>
 				<string>2A891FC31CD4FAC90045CBF2</string>
 				<string>2A891FC81CD4FAC90045CBF2</string>
@@ -357,7 +353,6 @@
 				<string>2A891FC91CD4FAC90045CBF2</string>
 				<string>2A891FC41CD4FAC90045CBF2</string>
 				<string>2A891FC71CD4FAC90045CBF2</string>
-				<string>2A891FC01CD4FAC90045CBF2</string>
 				<string>2A891FCA1CD4FAC90045CBF2</string>
 				<string>2A891FC51CD4FAC90045CBF2</string>
 				<string>2A3D9DA61C8B609000F52C6B</string>
@@ -384,9 +379,7 @@
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
-			<array>
-				<string>2A891FCE1CD4FAC90045CBF2</string>
-			</array>
+			<array/>
 			<key>isa</key>
 			<string>PBXResourcesBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
@@ -458,9 +451,7 @@
 		<dict>
 			<key>children</key>
 			<array>
-				<string>2A891FBD1CD4FAC90045CBF2</string>
 				<string>2A891FAE1CD4FAC90045CBF2</string>
-				<string>2A891FBB1CD4FAC90045CBF2</string>
 				<string>2A3D9DA51C8B609000F52C6B</string>
 				<string>2A3D9DA71C8B609000F52C6B</string>
 			</array>
@@ -887,7 +878,6 @@
 		<dict>
 			<key>children</key>
 			<array>
-				<string>2A891FAF1CD4FAC90045CBF2</string>
 				<string>2A891FB01CD4FAC90045CBF2</string>
 				<string>2A891FB11CD4FAC90045CBF2</string>
 				<string>2A891FB21CD4FAC90045CBF2</string>
@@ -904,19 +894,6 @@
 			<string>PBXGroup</string>
 			<key>path</key>
 			<string>Drawing Tests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2A891FAF1CD4FAC90045CBF2</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>ActiveDrawingTests.swift</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1063,79 +1040,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>2A891FBB1CD4FAC90045CBF2</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2A891FBC1CD4FAC90045CBF2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Guide Tests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2A891FBC1CD4FAC90045CBF2</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>GuideTests.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2A891FBD1CD4FAC90045CBF2</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2A891FBE1CD4FAC90045CBF2</string>
-				<string>2A891FBF1CD4FAC90045CBF2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Crow Quill Tests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2A891FBE1CD4FAC90045CBF2</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>Crow_QuillTests.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2A891FBF1CD4FAC90045CBF2</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2A891FC01CD4FAC90045CBF2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2A891FAF1CD4FAC90045CBF2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
 		<key>2A891FC11CD4FAC90045CBF2</key>
 		<dict>
 			<key>fileRef</key>
@@ -1210,27 +1114,6 @@
 		<dict>
 			<key>fileRef</key>
 			<string>2A891FBA1CD4FAC90045CBF2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2A891FCC1CD4FAC90045CBF2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2A891FBC1CD4FAC90045CBF2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2A891FCD1CD4FAC90045CBF2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2A891FBE1CD4FAC90045CBF2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2A891FCE1CD4FAC90045CBF2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2A891FBF1CD4FAC90045CBF2</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -1356,8 +1239,6 @@
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
-			<key>name</key>
-			<string>DrawingWorkspace</string>
 			<key>path</key>
 			<string>DrawingWorkspace</string>
 			<key>sourceTree</key>

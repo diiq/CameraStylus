@@ -1,5 +1,5 @@
 import XCTest
-@testable import Crow_Quill
+@testable import CameraStylus
 
 class ActiveDrawingTests: XCTestCase {
   lazy var renderer = TestRenderer()
