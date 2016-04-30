@@ -12,6 +12,8 @@ protocol Drawable {
  snapshot.
  */
 protocol ImageDrawable {
-  typealias ImageType
+  associatedtype ImageType
   func draw<R: ImageRenderer where R.ImageType == ImageType>(renderer: R)
 }
+
+
