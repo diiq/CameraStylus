@@ -10,7 +10,7 @@ Size scale = cvSize(800, 600);
 Scalar lower_bound_hsv = Scalar(250, 250, 250);
 Scalar upper_bound_hsv = Scalar(255, 255, 255);
 
-bool showImages = true;
+bool showImages = false;
 
 // Exports
 void setBlobColor(double h, double s, double v) {

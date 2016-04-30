@@ -1,22 +1,15 @@
-//
-//  ViewController.swift
-//  CameraStylus
-//
-//  Created by Sam Bleckley on 3/5/16.
-//  Copyright © 2016 Sam Bleckley. All rights reserved.
-//
-
 import Cocoa
 
 class ViewController: NSViewController {
   @IBOutlet weak var drawingView: DrawingView!
   var lastPoint: Point?
   var matrix: Matrix?
+  var calibration: Calibration = Calibration()
 
   override func viewDidLoad() {
-    drawingView.setup()
+    drawingView.setup(calibration)
     CVWrapper.openCamera()
-    CVWrapper.setBlobColor(340, s: 55, v: 80)
+    calibration.setRunningColor()
     setUpProjectionMatrix()
 
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_BACKGROUND, 0), drawContinuously)
@@ -24,28 +17,36 @@ class ViewController: NSViewController {
     super.viewDidLoad()
   }
 
-  func setUpProjectionMatrix() {
-    let ul = Point(x: 369, y: 216)
-    let ula = Point(x: 0, y: 800)
-    let ur = Point(x: 1222, y: 180)
-    let ura = Point(x: 1280, y: 800)
-    let lr = Point(x: 1160, y: 597)
-    let lra = Point(x: 1280, y: 0)
-    let ll = Point(x: 360, y: 625)
-    let lla = Point(x: 0, y: 0)
+  @IBAction func calibrate(sender: NSMenuItem) {
+    calibration.nextCalibrationPoint()
+    drawingView.setNeedsDisplay()
+  }
 
+  @IBAction func undo(sender: NSMenuItem) {
+    drawingView.undoStroke()
+  }
+
+  func setUpProjectionMatrix() {
     matrix = general2DProjectionMatrix(
-      ul, p1_destination: ula,
-      p2_start: ur, p2_destination: ura,
-      p3_start: lr, p3_destination: lra,
-      p4_start: ll, p4_destination: lla)
+      calibration.upper_left_in, p1_destination: calibration.upper_left_out,
+      p2_start: calibration.upper_right_in, p2_destination: calibration.upper_right_out,
+      p3_start: calibration.lower_right_in, p3_destination: calibration.lower_right_out,
+      p4_start: calibration.lower_left_in, p4_destination: calibration.lower_left_out)
   }
 
   func drawContinuously() {
     // OK THIS IS SUPER SLOPPY but: as fast as possible, grab frames and draw things
     while true {
       let coords = blobCoords();
-      drawPoint(coords);
+
+      if calibration.state == .Running {
+        drawPoint(coords);
+      } else if calibration.waiting {
+        sleep(1)
+        calibration.waiting = false
+      } else {
+        calibratePoint(coords)
+      }
     }
   }
 
@@ -55,16 +56,17 @@ class ViewController: NSViewController {
       return
     }
 
-    let p = coords.toPoint()
-    print(p)
-    drawingView.addPoint(matrix!.project(p))
+    drawingView.addPoint(matrix!.project(coords.toPoint()))
+  }
+
+  func calibratePoint(coords: FalseTouch) {
+    guard coords.present else { return }
+    calibration.setCalibrationPoint(coords.toPoint())
+    setUpProjectionMatrix()
+    calibration.nextCalibrationPoint()
+    drawingView.setNeedsDisplay()
   }
 }
-
-
-
-// Pink: 340, 55, 80
-// Green: 85, 70, 50)
 
 
 

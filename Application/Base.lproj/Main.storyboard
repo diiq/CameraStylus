@@ -13,39 +13,60 @@
                         <items>
                             <menuItem title="CameraStylus" id="1Xt-HY-uBw">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <menu key="submenu" title="CameraStylus" systemMenu="apple" id="uQy-DD-JDr">
+                                <menu key="submenu" title="CameraStylus" systemMenu="apple" id="Tfv-Nm-umq">
                                     <items>
-                                        <menuItem title="About CameraStylus" id="5kV-Vb-QxS">
+                                        <menuItem title="About CameraStylus" id="tVH-KH-aey">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <connections>
-                                                <action selector="orderFrontStandardAboutPanel:" target="Ady-hI-5gd" id="Exp-CZ-Vem"/>
+                                                <action selector="orderFrontStandardAboutPanel:" target="Ady-hI-5gd" id="LXF-oh-f8T"/>
                                             </connections>
                                         </menuItem>
-                                        <menuItem isSeparatorItem="YES" id="VOq-y0-SEH"/>
-                                        <menuItem title="Preferences…" keyEquivalent="," id="BOF-NM-1cW"/>
-                                        <menuItem title="Calibrate" keyEquivalent="C" id="DHn-V6-XUb"/>
-                                        <menuItem isSeparatorItem="YES" id="4je-JR-u6R"/>
-                                        <menuItem title="Hide CameraStylus" keyEquivalent="h" id="Olw-nP-bQN">
+                                        <menuItem isSeparatorItem="YES" id="GES-XC-Dav"/>
+                                        <menuItem title="Preferences…" keyEquivalent="," id="g9r-XS-O1f"/>
+                                        <menuItem title="Calibrate" keyEquivalent="c" id="RGn-4Q-0Cn">
                                             <connections>
-                                                <action selector="hide:" target="Ady-hI-5gd" id="PnN-Uc-m68"/>
+                                                <action selector="calibrate:" target="Ady-hI-5gd" id="ajh-Wn-vH0"/>
                                             </connections>
                                         </menuItem>
-                                        <menuItem title="Hide Others" keyEquivalent="h" id="Vdr-fp-XzO">
+                                        <menuItem isSeparatorItem="YES" id="3af-m4-ycV"/>
+                                        <menuItem title="Hide CameraStylus" keyEquivalent="h" id="tJo-DG-Kf0">
+                                            <connections>
+                                                <action selector="hide:" target="Ady-hI-5gd" id="HXR-eC-h8j"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Hide Others" keyEquivalent="h" id="bjh-UR-tj3">
                                             <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
                                             <connections>
-                                                <action selector="hideOtherApplications:" target="Ady-hI-5gd" id="VT4-aY-XCT"/>
+                                                <action selector="hideOtherApplications:" target="Ady-hI-5gd" id="bMy-as-4IF"/>
                                             </connections>
                                         </menuItem>
-                                        <menuItem title="Show All" id="Kd2-mp-pUS">
+                                        <menuItem title="Show All" id="Qr4-2s-9QH">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <connections>
-                                                <action selector="unhideAllApplications:" target="Ady-hI-5gd" id="Dhg-Le-xox"/>
+                                                <action selector="unhideAllApplications:" target="Ady-hI-5gd" id="3Q6-dP-04a"/>
                                             </connections>
                                         </menuItem>
-                                        <menuItem isSeparatorItem="YES" id="kCx-OE-vgT"/>
-                                        <menuItem title="Quit CameraStylus" keyEquivalent="q" id="4sb-4s-VLi">
+                                        <menuItem isSeparatorItem="YES" id="vQA-Eb-MQn"/>
+                                        <menuItem title="Quit CameraStylus" keyEquivalent="q" id="Wbd-sJ-fFw">
                                             <connections>
-                                                <action selector="terminate:" target="Ady-hI-5gd" id="Te7-pn-YzF"/>
+                                                <action selector="terminate:" target="Ady-hI-5gd" id="oKu-Lm-Cnr"/>
+                                            </connections>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
+                            <menuItem title="Edit" id="3v5-WP-n0J">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="Edit" systemMenu="apple" id="Y4c-Sz-3Xc">
+                                    <items>
+                                        <menuItem title="Undo" keyEquivalent="z" id="xDn-0Y-GlZ">
+                                            <connections>
+                                                <action selector="undo:" target="Ady-hI-5gd" id="Om3-Em-JJd"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Clear" keyEquivalent="x" id="c0X-LO-DBj">
+                                            <connections>
+                                                <action selector="undo:" target="Ady-hI-5gd" id="Inf-D8-Sz7"/>
                                             </connections>
                                         </menuItem>
                                     </items>

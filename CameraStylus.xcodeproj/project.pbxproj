@@ -1,1889 +1,688 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>2A3D9D871C8B609000F52C6B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2A3D9D921C8B609000F52C6B</string>
-				<string>2A9F24C81C98EE110036F105</string>
-				<string>2A3D9DA41C8B609000F52C6B</string>
-				<string>2AE7A6F01C8D07500012D4A3</string>
-				<string>2A3D9D911C8B609000F52C6B</string>
-				<string>2AE7A72D1C8D075A0012D4A3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2A3D9D881C8B609000F52C6B</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastSwiftUpdateCheck</key>
-				<string>0720</string>
-				<key>LastUpgradeCheck</key>
-				<string>0720</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>Sam Bleckley</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>2A3D9D8F1C8B609000F52C6B</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>7.2.1</string>
-					</dict>
-					<key>2A3D9DA01C8B609000F52C6B</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>7.2.1</string>
-						<key>TestTargetID</key>
-						<string>2A3D9D8F1C8B609000F52C6B</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>2A3D9D8B1C8B609000F52C6B</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>2A3D9D871C8B609000F52C6B</string>
-			<key>productRefGroup</key>
-			<string>2A3D9D911C8B609000F52C6B</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>2A3D9D8F1C8B609000F52C6B</string>
-				<string>2A3D9DA01C8B609000F52C6B</string>
-			</array>
-		</dict>
-		<key>2A3D9D8B1C8B609000F52C6B</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>2A3D9DA81C8B609000F52C6B</string>
-				<string>2A3D9DA91C8B609000F52C6B</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>2A3D9D8C1C8B609000F52C6B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>2AE7A7371C8D075A0012D4A3</string>
-				<string>2AE7A71F1C8D07500012D4A3</string>
-				<string>2AE7A71A1C8D07500012D4A3</string>
-				<string>2AE7A71E1C8D07500012D4A3</string>
-				<string>2AE7A73B1C8D075A0012D4A3</string>
-				<string>2AE7A6E41C8CC4010012D4A3</string>
-				<string>2AD7E9431CAEFEEF00186599</string>
-				<string>2A3D9D961C8B609000F52C6B</string>
-				<string>2AE7A7211C8D07500012D4A3</string>
-				<string>2AE7A73A1C8D075A0012D4A3</string>
-				<string>2AE7A7381C8D075A0012D4A3</string>
-				<string>2AE7A7291C8D07500012D4A3</string>
-				<string>2AE7A7241C8D07500012D4A3</string>
-				<string>2AE7A71D1C8D07500012D4A3</string>
-				<string>2AE7A7271C8D07500012D4A3</string>
-				<string>2AE7A7361C8D075A0012D4A3</string>
-				<string>2A9F24CA1C98EE5B0036F105</string>
-				<string>2AE7A7261C8D07500012D4A3</string>
-				<string>2AE7A7121C8D07500012D4A3</string>
-				<string>2AE7A6EE1C8D06470012D4A3</string>
-				<string>2AE7A7141C8D07500012D4A3</string>
-				<string>2AE7A7391C8D075A0012D4A3</string>
-				<string>2AE7A7281C8D07500012D4A3</string>
-				<string>2AE7A7351C8D075A0012D4A3</string>
-				<string>2AE7A71C1C8D07500012D4A3</string>
-				<string>2AE7A7231C8D07500012D4A3</string>
-				<string>2AE7A7131C8D07500012D4A3</string>
-				<string>2A3D9DB31C8B614A00F52C6B</string>
-				<string>2AE7A7221C8D07500012D4A3</string>
-				<string>2AE7A72B1C8D07500012D4A3</string>
-				<string>2A3D9D941C8B609000F52C6B</string>
-				<string>2AE7A71B1C8D07500012D4A3</string>
-				<string>2AE7A72A1C8D07500012D4A3</string>
-				<string>2AE7A7201C8D07500012D4A3</string>
-				<string>2AE7A7151C8D07500012D4A3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>2A3D9D8D1C8B609000F52C6B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>2A3D9D8E1C8B609000F52C6B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>2A3D9D981C8B609000F52C6B</string>
-				<string>2A3D9D9B1C8B609000F52C6B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>2A3D9D8F1C8B609000F52C6B</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>2A3D9DAA1C8B609000F52C6B</string>
-			<key>buildPhases</key>
-			<array>
-				<string>2A3D9D8C1C8B609000F52C6B</string>
-				<string>2A3D9D8D1C8B609000F52C6B</string>
-				<string>2A3D9D8E1C8B609000F52C6B</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>CameraStylus</string>
-			<key>productName</key>
-			<string>CameraStylus</string>
-			<key>productReference</key>
-			<string>2A3D9D901C8B609000F52C6B</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>2A3D9D901C8B609000F52C6B</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>CameraStylus.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>2A3D9D911C8B609000F52C6B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2A3D9D901C8B609000F52C6B</string>
-				<string>2A3D9DA11C8B609000F52C6B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2A3D9D921C8B609000F52C6B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2A3D9D931C8B609000F52C6B</string>
-				<string>2A3D9D971C8B609000F52C6B</string>
-				<string>2AE7A6EC1C8D06470012D4A3</string>
-				<string>2A3D9D9C1C8B609000F52C6B</string>
-				<string>2A3D9D991C8B609000F52C6B</string>
-				<string>2A3D9D951C8B609000F52C6B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Application</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2A3D9D931C8B609000F52C6B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>AppDelegate.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2A3D9D941C8B609000F52C6B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2A3D9D931C8B609000F52C6B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2A3D9D951C8B609000F52C6B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>ViewController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2A3D9D961C8B609000F52C6B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2A3D9D951C8B609000F52C6B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2A3D9D971C8B609000F52C6B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Assets.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2A3D9D981C8B609000F52C6B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2A3D9D971C8B609000F52C6B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2A3D9D991C8B609000F52C6B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2A3D9D9A1C8B609000F52C6B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>path</key>
-			<string>.</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2A3D9D9A1C8B609000F52C6B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2A3D9D9B1C8B609000F52C6B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2A3D9D991C8B609000F52C6B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2A3D9D9C1C8B609000F52C6B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2A3D9D9D1C8B609000F52C6B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>2A891FC21CD4FAC90045CBF2</string>
-				<string>2A891FCB1CD4FAC90045CBF2</string>
-				<string>2A891FC31CD4FAC90045CBF2</string>
-				<string>2A891FC81CD4FAC90045CBF2</string>
-				<string>2A891FC61CD4FAC90045CBF2</string>
-				<string>2A891FC91CD4FAC90045CBF2</string>
-				<string>2A891FC41CD4FAC90045CBF2</string>
-				<string>2A891FC71CD4FAC90045CBF2</string>
-				<string>2A891FCA1CD4FAC90045CBF2</string>
-				<string>2A891FC51CD4FAC90045CBF2</string>
-				<string>2A3D9DA61C8B609000F52C6B</string>
-				<string>2A891FC11CD4FAC90045CBF2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>2A3D9D9E1C8B609000F52C6B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>2A3D9D9F1C8B609000F52C6B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>2A3D9DA01C8B609000F52C6B</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>2A3D9DAD1C8B609000F52C6B</string>
-			<key>buildPhases</key>
-			<array>
-				<string>2A3D9D9D1C8B609000F52C6B</string>
-				<string>2A3D9D9E1C8B609000F52C6B</string>
-				<string>2A3D9D9F1C8B609000F52C6B</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>2A3D9DA31C8B609000F52C6B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>CameraStylusTests</string>
-			<key>productName</key>
-			<string>CameraStylusTests</string>
-			<key>productReference</key>
-			<string>2A3D9DA11C8B609000F52C6B</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>2A3D9DA11C8B609000F52C6B</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>CameraStylusTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>2A3D9DA21C8B609000F52C6B</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>2A3D9D881C8B609000F52C6B</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>2A3D9D8F1C8B609000F52C6B</string>
-			<key>remoteInfo</key>
-			<string>CameraStylus</string>
-		</dict>
-		<key>2A3D9DA31C8B609000F52C6B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>2A3D9D8F1C8B609000F52C6B</string>
-			<key>targetProxy</key>
-			<string>2A3D9DA21C8B609000F52C6B</string>
-		</dict>
-		<key>2A3D9DA41C8B609000F52C6B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2A891FAE1CD4FAC90045CBF2</string>
-				<string>2A3D9DA51C8B609000F52C6B</string>
-				<string>2A3D9DA71C8B609000F52C6B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>CameraStylusTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2A3D9DA51C8B609000F52C6B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>CameraStylusTests.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2A3D9DA61C8B609000F52C6B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2A3D9DA51C8B609000F52C6B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2A3D9DA71C8B609000F52C6B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2A3D9DA81C8B609000F52C6B</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY</key>
-				<string>-</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>ENABLE_TESTABILITY</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>MACOSX_DEPLOYMENT_TARGET</key>
-				<string>10.11</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>macosx</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>2A3D9DA91C8B609000F52C6B</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY</key>
-				<string>-</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>MACOSX_DEPLOYMENT_TARGET</key>
-				<string>10.11</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>SDKROOT</key>
-				<string>macosx</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>2A3D9DAA1C8B609000F52C6B</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>2A3D9DAB1C8B609000F52C6B</string>
-				<string>2A3D9DAC1C8B609000F52C6B</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>2A3D9DAB1C8B609000F52C6B</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>COMBINE_HIDPI_IMAGES</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS[arch=*]</key>
-				<string>__ASSERT_MACROS_DEFINE_VERSIONS_WITHOUT_UNDERSCORES=0</string>
-				<key>HEADER_SEARCH_PATHS[arch=*]</key>
-				<string>/usr/local/include</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Application/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/../Frameworks</string>
-				<key>LIBRARY_SEARCH_PATHS[arch=*]</key>
-				<string>/usr/local/lib</string>
-				<key>MACOSX_DEPLOYMENT_TARGET</key>
-				<string>10.11</string>
-				<key>OTHER_LDFLAGS[arch=*]</key>
-				<array>
-					<string>-lopencv_calib3d</string>
-					<string>-lopencv_core</string>
-					<string>-lopencv_features2d</string>
-					<string>-lopencv_flann</string>
-					<string>-lopencv_highgui</string>
-					<string>-lopencv_imgcodecs</string>
-					<string>-lopencv_imgproc</string>
-					<string>-lopencv_ml</string>
-					<string>-lopencv_objdetect</string>
-					<string>-lopencv_photo</string>
-					<string>-lopencv_shape</string>
-					<string>-lopencv_stitching</string>
-					<string>-lopencv_superres</string>
-					<string>-lopencv_ts</string>
-					<string>-lopencv_video</string>
-					<string>-lopencv_videoio</string>
-					<string>-lopencv_videostab</string>
-				</array>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.diiq.CameraStylus</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_OBJC_BRIDGING_HEADER</key>
-				<string>CameraBlobCoords/CameraStylus-Bridging-Header.h</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>2A3D9DAC1C8B609000F52C6B</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>COMBINE_HIDPI_IMAGES</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS[arch=*]</key>
-				<string>__ASSERT_MACROS_DEFINE_VERSIONS_WITHOUT_UNDERSCORES=0</string>
-				<key>HEADER_SEARCH_PATHS[arch=*]</key>
-				<string>/usr/local/include</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Application/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/../Frameworks</string>
-				<key>LIBRARY_SEARCH_PATHS[arch=*]</key>
-				<string>/usr/local/lib</string>
-				<key>MACOSX_DEPLOYMENT_TARGET</key>
-				<string>10.11</string>
-				<key>OTHER_LDFLAGS[arch=*]</key>
-				<array>
-					<string>-lopencv_calib3d</string>
-					<string>-lopencv_core</string>
-					<string>-lopencv_features2d</string>
-					<string>-lopencv_flann</string>
-					<string>-lopencv_highgui</string>
-					<string>-lopencv_imgcodecs</string>
-					<string>-lopencv_imgproc</string>
-					<string>-lopencv_ml</string>
-					<string>-lopencv_objdetect</string>
-					<string>-lopencv_photo</string>
-					<string>-lopencv_shape</string>
-					<string>-lopencv_stitching</string>
-					<string>-lopencv_superres</string>
-					<string>-lopencv_ts</string>
-					<string>-lopencv_video</string>
-					<string>-lopencv_videoio</string>
-					<string>-lopencv_videostab</string>
-				</array>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.diiq.CameraStylus</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_OBJC_BRIDGING_HEADER</key>
-				<string>CameraBlobCoords/CameraStylus-Bridging-Header.h</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>2A3D9DAD1C8B609000F52C6B</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>2A3D9DAE1C8B609000F52C6B</string>
-				<string>2A3D9DAF1C8B609000F52C6B</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>2A3D9DAE1C8B609000F52C6B</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>COMBINE_HIDPI_IMAGES</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>CameraStylusTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.diiq.CameraStylusTests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/CameraStylus.app/Contents/MacOS/CameraStylus</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>2A3D9DAF1C8B609000F52C6B</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>COMBINE_HIDPI_IMAGES</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>CameraStylusTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.diiq.CameraStylusTests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/CameraStylus.app/Contents/MacOS/CameraStylus</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>2A3D9DB01C8B610500F52C6B</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>CVWrapper.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2A3D9DB11C8B614900F52C6B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>CameraStylus-Bridging-Header.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2A3D9DB21C8B614A00F52C6B</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.cpp.objcpp</string>
-			<key>path</key>
-			<string>CVWrapper.mm</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2A3D9DB31C8B614A00F52C6B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2A3D9DB21C8B614A00F52C6B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2A891FAE1CD4FAC90045CBF2</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2A891FB01CD4FAC90045CBF2</string>
-				<string>2A891FB11CD4FAC90045CBF2</string>
-				<string>2A891FB21CD4FAC90045CBF2</string>
-				<string>2A891FB31CD4FAC90045CBF2</string>
-				<string>2A891FB41CD4FAC90045CBF2</string>
-				<string>2A891FB51CD4FAC90045CBF2</string>
-				<string>2A891FB61CD4FAC90045CBF2</string>
-				<string>2A891FB71CD4FAC90045CBF2</string>
-				<string>2A891FB81CD4FAC90045CBF2</string>
-				<string>2A891FB91CD4FAC90045CBF2</string>
-				<string>2A891FBA1CD4FAC90045CBF2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Drawing Tests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2A891FB01CD4FAC90045CBF2</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>ArrayExtensionTests.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2A891FB11CD4FAC90045CBF2</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>DrawingTests.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2A891FB21CD4FAC90045CBF2</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>LinearFixedPenStrokeTests.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2A891FB31CD4FAC90045CBF2</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>PerpendicularOutsetTests.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2A891FB41CD4FAC90045CBF2</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>PointTests.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2A891FB51CD4FAC90045CBF2</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>SmoothFixedPenStrokeTests.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2A891FB61CD4FAC90045CBF2</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>SnapshotTimelineTests.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2A891FB71CD4FAC90045CBF2</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>StampedStrokeRendererTests.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2A891FB81CD4FAC90045CBF2</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>TestRendererTests.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2A891FB91CD4FAC90045CBF2</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>TimelineTests.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2A891FBA1CD4FAC90045CBF2</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>WeightedByVelocityTests.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2A891FC11CD4FAC90045CBF2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2A891FB01CD4FAC90045CBF2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2A891FC21CD4FAC90045CBF2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2A891FB11CD4FAC90045CBF2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2A891FC31CD4FAC90045CBF2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2A891FB21CD4FAC90045CBF2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2A891FC41CD4FAC90045CBF2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2A891FB31CD4FAC90045CBF2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2A891FC51CD4FAC90045CBF2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2A891FB41CD4FAC90045CBF2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2A891FC61CD4FAC90045CBF2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2A891FB51CD4FAC90045CBF2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2A891FC71CD4FAC90045CBF2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2A891FB61CD4FAC90045CBF2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2A891FC81CD4FAC90045CBF2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2A891FB71CD4FAC90045CBF2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2A891FC91CD4FAC90045CBF2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2A891FB81CD4FAC90045CBF2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2A891FCA1CD4FAC90045CBF2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2A891FB91CD4FAC90045CBF2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2A891FCB1CD4FAC90045CBF2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2A891FBA1CD4FAC90045CBF2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2A9F24C81C98EE110036F105</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2A3D9DB01C8B610500F52C6B</string>
-				<string>2A3D9DB21C8B614A00F52C6B</string>
-				<string>2A3D9DB11C8B614900F52C6B</string>
-				<string>2AD7E9421CAEFEEF00186599</string>
-				<string>2A9F24C91C98EE5B0036F105</string>
-				<string>2AE7A6E21C8CC4010012D4A3</string>
-				<string>2AE7A6E31C8CC4010012D4A3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>CameraBlobCoords</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2A9F24C91C98EE5B0036F105</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>cameraBlobCoords.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2A9F24CA1C98EE5B0036F105</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2A9F24C91C98EE5B0036F105</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2AD7E9421CAEFEEF00186599</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>PerspectiveProjection.swift</string>
-			<key>path</key>
-			<string>PerspectiveProjection.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2AD7E9431CAEFEEF00186599</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2AD7E9421CAEFEEF00186599</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2AE7A6E21C8CC4010012D4A3</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.cpp.cpp</string>
-			<key>path</key>
-			<string>fetchCoords.cpp</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2AE7A6E31C8CC4010012D4A3</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>fetchCoords.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2AE7A6E41C8CC4010012D4A3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2AE7A6E21C8CC4010012D4A3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2AE7A6EC1C8D06470012D4A3</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>DrawingView.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2AE7A6EE1C8D06470012D4A3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2AE7A6EC1C8D06470012D4A3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2AE7A6F01C8D07500012D4A3</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2AE7A6F21C8D07500012D4A3</string>
-				<string>2AE7A6FD1C8D07500012D4A3</string>
-				<string>2AE7A6FC1C8D07500012D4A3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>DrawingWorkspace</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2AE7A6F21C8D07500012D4A3</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2AE7A6F31C8D07500012D4A3</string>
-				<string>2AE7A6F41C8D07500012D4A3</string>
-				<string>2AE7A6F51C8D07500012D4A3</string>
-				<string>2AE7A6F61C8D07500012D4A3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Drawing</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2AE7A6F31C8D07500012D4A3</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>Drawing.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2AE7A6F41C8D07500012D4A3</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>Snapshot.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2AE7A6F51C8D07500012D4A3</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>SnapshotTimeline.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2AE7A6F61C8D07500012D4A3</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>Timeline.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2AE7A6FC1C8D07500012D4A3</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>Point.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2AE7A6FD1C8D07500012D4A3</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2AE7A7081C8D07500012D4A3</string>
-				<string>2AE7A6FE1C8D07500012D4A3</string>
-				<string>2AE7A6FF1C8D07500012D4A3</string>
-				<string>2AE7A7001C8D07500012D4A3</string>
-				<string>2AE7A7011C8D07500012D4A3</string>
-				<string>2AE7A7021C8D07500012D4A3</string>
-				<string>2AE7A7031C8D07500012D4A3</string>
-				<string>2AE7A7041C8D07500012D4A3</string>
-				<string>2AE7A7051C8D07500012D4A3</string>
-				<string>2AE7A7061C8D07500012D4A3</string>
-				<string>2AE7A7071C8D07500012D4A3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Strokes</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2AE7A6FE1C8D07500012D4A3</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>LinearFixedPenStroke.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2AE7A6FF1C8D07500012D4A3</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>LinearVariablePenStroke.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2AE7A7001C8D07500012D4A3</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>SmoothFixedGuidedStroke.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2AE7A7011C8D07500012D4A3</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>SmoothFixedPenStroke.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2AE7A7021C8D07500012D4A3</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>SmoothImageStampedStroke.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2AE7A7031C8D07500012D4A3</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>SmoothStampedStroke.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2AE7A7041C8D07500012D4A3</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>SmoothVariableGuidedStroke.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2AE7A7051C8D07500012D4A3</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>SmoothVariablePenStroke.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2AE7A7061C8D07500012D4A3</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>Stroke.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2AE7A7071C8D07500012D4A3</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>StrokeSettings.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2AE7A7081C8D07500012D4A3</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2AE7A70A1C8D07500012D4A3</string>
-				<string>2AE7A70B1C8D07500012D4A3</string>
-				<string>2AE7A70C1C8D07500012D4A3</string>
-				<string>2AE7A70D1C8D07500012D4A3</string>
-				<string>2AE7A70E1C8D07500012D4A3</string>
-				<string>2AE7A70F1C8D07500012D4A3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>StrokeTransformations</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2AE7A70A1C8D07500012D4A3</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>ApplyRulerGuide.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2AE7A70B1C8D07500012D4A3</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>PerpendicularOutset.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2AE7A70C1C8D07500012D4A3</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>ScaleWeights.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2AE7A70D1C8D07500012D4A3</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>StrokeTransformation.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2AE7A70E1C8D07500012D4A3</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>ThreePointWeightAverage.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2AE7A70F1C8D07500012D4A3</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>WeightedByVelocity.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2AE7A7121C8D07500012D4A3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2AE7A6F31C8D07500012D4A3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2AE7A7131C8D07500012D4A3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2AE7A6F41C8D07500012D4A3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2AE7A7141C8D07500012D4A3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2AE7A6F51C8D07500012D4A3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2AE7A7151C8D07500012D4A3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2AE7A6F61C8D07500012D4A3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2AE7A71A1C8D07500012D4A3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2AE7A6FC1C8D07500012D4A3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2AE7A71B1C8D07500012D4A3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2AE7A6FE1C8D07500012D4A3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2AE7A71C1C8D07500012D4A3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2AE7A6FF1C8D07500012D4A3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2AE7A71D1C8D07500012D4A3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2AE7A7001C8D07500012D4A3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2AE7A71E1C8D07500012D4A3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2AE7A7011C8D07500012D4A3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2AE7A71F1C8D07500012D4A3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2AE7A7021C8D07500012D4A3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2AE7A7201C8D07500012D4A3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2AE7A7031C8D07500012D4A3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2AE7A7211C8D07500012D4A3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2AE7A7041C8D07500012D4A3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2AE7A7221C8D07500012D4A3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2AE7A7051C8D07500012D4A3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2AE7A7231C8D07500012D4A3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2AE7A7061C8D07500012D4A3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2AE7A7241C8D07500012D4A3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2AE7A7071C8D07500012D4A3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2AE7A7261C8D07500012D4A3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2AE7A70A1C8D07500012D4A3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2AE7A7271C8D07500012D4A3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2AE7A70B1C8D07500012D4A3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2AE7A7281C8D07500012D4A3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2AE7A70C1C8D07500012D4A3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2AE7A7291C8D07500012D4A3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2AE7A70D1C8D07500012D4A3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2AE7A72A1C8D07500012D4A3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2AE7A70E1C8D07500012D4A3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2AE7A72B1C8D07500012D4A3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2AE7A70F1C8D07500012D4A3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2AE7A72D1C8D075A0012D4A3</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2AE7A72E1C8D075A0012D4A3</string>
-				<string>2AE7A72F1C8D075A0012D4A3</string>
-				<string>2AE7A7301C8D075A0012D4A3</string>
-				<string>2AE7A7311C8D075A0012D4A3</string>
-				<string>2AE7A7321C8D075A0012D4A3</string>
-				<string>2AE7A7331C8D075A0012D4A3</string>
-				<string>2AE7A7341C8D075A0012D4A3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Renderers</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2AE7A72E1C8D075A0012D4A3</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>CatmullRomRendererExtension.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2AE7A72F1C8D075A0012D4A3</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>Color.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2AE7A7301C8D075A0012D4A3</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>Drawable.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2AE7A7311C8D075A0012D4A3</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>Renderer.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2AE7A7321C8D075A0012D4A3</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>StampedStrokeRendererExtension.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2AE7A7331C8D075A0012D4A3</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>TestRenderer.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2AE7A7341C8D075A0012D4A3</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>UIRenderer.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2AE7A7351C8D075A0012D4A3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2AE7A72E1C8D075A0012D4A3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2AE7A7361C8D075A0012D4A3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2AE7A72F1C8D075A0012D4A3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2AE7A7371C8D075A0012D4A3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2AE7A7301C8D075A0012D4A3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2AE7A7381C8D075A0012D4A3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2AE7A7311C8D075A0012D4A3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2AE7A7391C8D075A0012D4A3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2AE7A7321C8D075A0012D4A3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2AE7A73A1C8D075A0012D4A3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2AE7A7331C8D075A0012D4A3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2AE7A73B1C8D075A0012D4A3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2AE7A7341C8D075A0012D4A3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>2A3D9D881C8B609000F52C6B</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A3D9D941C8B609000F52C6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3D9D931C8B609000F52C6B /* AppDelegate.swift */; };
+		2A3D9D961C8B609000F52C6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3D9D951C8B609000F52C6B /* ViewController.swift */; };
+		2A3D9D981C8B609000F52C6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A3D9D971C8B609000F52C6B /* Assets.xcassets */; };
+		2A3D9D9B1C8B609000F52C6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A3D9D991C8B609000F52C6B /* Main.storyboard */; };
+		2A3D9DA61C8B609000F52C6B /* CameraStylusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3D9DA51C8B609000F52C6B /* CameraStylusTests.swift */; };
+		2A3D9DB31C8B614A00F52C6B /* CVWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2A3D9DB21C8B614A00F52C6B /* CVWrapper.mm */; };
+		2A891FC11CD4FAC90045CBF2 /* ArrayExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A891FB01CD4FAC90045CBF2 /* ArrayExtensionTests.swift */; };
+		2A891FC21CD4FAC90045CBF2 /* DrawingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A891FB11CD4FAC90045CBF2 /* DrawingTests.swift */; };
+		2A891FC31CD4FAC90045CBF2 /* LinearFixedPenStrokeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A891FB21CD4FAC90045CBF2 /* LinearFixedPenStrokeTests.swift */; };
+		2A891FC41CD4FAC90045CBF2 /* PerpendicularOutsetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A891FB31CD4FAC90045CBF2 /* PerpendicularOutsetTests.swift */; };
+		2A891FC51CD4FAC90045CBF2 /* PointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A891FB41CD4FAC90045CBF2 /* PointTests.swift */; };
+		2A891FC61CD4FAC90045CBF2 /* SmoothFixedPenStrokeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A891FB51CD4FAC90045CBF2 /* SmoothFixedPenStrokeTests.swift */; };
+		2A891FC71CD4FAC90045CBF2 /* SnapshotTimelineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A891FB61CD4FAC90045CBF2 /* SnapshotTimelineTests.swift */; };
+		2A891FC81CD4FAC90045CBF2 /* StampedStrokeRendererTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A891FB71CD4FAC90045CBF2 /* StampedStrokeRendererTests.swift */; };
+		2A891FC91CD4FAC90045CBF2 /* TestRendererTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A891FB81CD4FAC90045CBF2 /* TestRendererTests.swift */; };
+		2A891FCA1CD4FAC90045CBF2 /* TimelineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A891FB91CD4FAC90045CBF2 /* TimelineTests.swift */; };
+		2A891FCB1CD4FAC90045CBF2 /* WeightedByVelocityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A891FBA1CD4FAC90045CBF2 /* WeightedByVelocityTests.swift */; };
+		2A891FD01CD54B9D0045CBF2 /* Calibration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A891FCF1CD54B9D0045CBF2 /* Calibration.swift */; };
+		2A9F24CA1C98EE5B0036F105 /* cameraBlobCoords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9F24C91C98EE5B0036F105 /* cameraBlobCoords.swift */; };
+		2AD7E9431CAEFEEF00186599 /* PerspectiveProjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7E9421CAEFEEF00186599 /* PerspectiveProjection.swift */; };
+		2AE7A6E41C8CC4010012D4A3 /* fetchCoords.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A6E21C8CC4010012D4A3 /* fetchCoords.cpp */; };
+		2AE7A6EE1C8D06470012D4A3 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A6EC1C8D06470012D4A3 /* DrawingView.swift */; };
+		2AE7A7121C8D07500012D4A3 /* Drawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A6F31C8D07500012D4A3 /* Drawing.swift */; };
+		2AE7A7131C8D07500012D4A3 /* Snapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A6F41C8D07500012D4A3 /* Snapshot.swift */; };
+		2AE7A7141C8D07500012D4A3 /* SnapshotTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A6F51C8D07500012D4A3 /* SnapshotTimeline.swift */; };
+		2AE7A7151C8D07500012D4A3 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A6F61C8D07500012D4A3 /* Timeline.swift */; };
+		2AE7A71A1C8D07500012D4A3 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A6FC1C8D07500012D4A3 /* Point.swift */; };
+		2AE7A71B1C8D07500012D4A3 /* LinearFixedPenStroke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A6FE1C8D07500012D4A3 /* LinearFixedPenStroke.swift */; };
+		2AE7A71C1C8D07500012D4A3 /* LinearVariablePenStroke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A6FF1C8D07500012D4A3 /* LinearVariablePenStroke.swift */; };
+		2AE7A71D1C8D07500012D4A3 /* SmoothFixedGuidedStroke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A7001C8D07500012D4A3 /* SmoothFixedGuidedStroke.swift */; };
+		2AE7A71E1C8D07500012D4A3 /* SmoothFixedPenStroke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A7011C8D07500012D4A3 /* SmoothFixedPenStroke.swift */; };
+		2AE7A71F1C8D07500012D4A3 /* SmoothImageStampedStroke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A7021C8D07500012D4A3 /* SmoothImageStampedStroke.swift */; };
+		2AE7A7201C8D07500012D4A3 /* SmoothStampedStroke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A7031C8D07500012D4A3 /* SmoothStampedStroke.swift */; };
+		2AE7A7211C8D07500012D4A3 /* SmoothVariableGuidedStroke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A7041C8D07500012D4A3 /* SmoothVariableGuidedStroke.swift */; };
+		2AE7A7221C8D07500012D4A3 /* SmoothVariablePenStroke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A7051C8D07500012D4A3 /* SmoothVariablePenStroke.swift */; };
+		2AE7A7231C8D07500012D4A3 /* Stroke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A7061C8D07500012D4A3 /* Stroke.swift */; };
+		2AE7A7241C8D07500012D4A3 /* StrokeSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A7071C8D07500012D4A3 /* StrokeSettings.swift */; };
+		2AE7A7261C8D07500012D4A3 /* ApplyRulerGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A70A1C8D07500012D4A3 /* ApplyRulerGuide.swift */; };
+		2AE7A7271C8D07500012D4A3 /* PerpendicularOutset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A70B1C8D07500012D4A3 /* PerpendicularOutset.swift */; };
+		2AE7A7281C8D07500012D4A3 /* ScaleWeights.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A70C1C8D07500012D4A3 /* ScaleWeights.swift */; };
+		2AE7A7291C8D07500012D4A3 /* StrokeTransformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A70D1C8D07500012D4A3 /* StrokeTransformation.swift */; };
+		2AE7A72A1C8D07500012D4A3 /* ThreePointWeightAverage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A70E1C8D07500012D4A3 /* ThreePointWeightAverage.swift */; };
+		2AE7A72B1C8D07500012D4A3 /* WeightedByVelocity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A70F1C8D07500012D4A3 /* WeightedByVelocity.swift */; };
+		2AE7A7351C8D075A0012D4A3 /* CatmullRomRendererExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A72E1C8D075A0012D4A3 /* CatmullRomRendererExtension.swift */; };
+		2AE7A7361C8D075A0012D4A3 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A72F1C8D075A0012D4A3 /* Color.swift */; };
+		2AE7A7371C8D075A0012D4A3 /* Drawable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A7301C8D075A0012D4A3 /* Drawable.swift */; };
+		2AE7A7381C8D075A0012D4A3 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A7311C8D075A0012D4A3 /* Renderer.swift */; };
+		2AE7A7391C8D075A0012D4A3 /* StampedStrokeRendererExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A7321C8D075A0012D4A3 /* StampedStrokeRendererExtension.swift */; };
+		2AE7A73A1C8D075A0012D4A3 /* TestRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A7331C8D075A0012D4A3 /* TestRenderer.swift */; };
+		2AE7A73B1C8D075A0012D4A3 /* UIRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A7341C8D075A0012D4A3 /* UIRenderer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A3D9DA21C8B609000F52C6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A3D9D881C8B609000F52C6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A3D9D8F1C8B609000F52C6B;
+			remoteInfo = CameraStylus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A3D9D901C8B609000F52C6B /* CameraStylus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraStylus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A3D9D931C8B609000F52C6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2A3D9D951C8B609000F52C6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2A3D9D971C8B609000F52C6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A3D9D9A1C8B609000F52C6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A3D9D9C1C8B609000F52C6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A3D9DA11C8B609000F52C6B /* CameraStylusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CameraStylusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A3D9DA51C8B609000F52C6B /* CameraStylusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraStylusTests.swift; sourceTree = "<group>"; };
+		2A3D9DA71C8B609000F52C6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A3D9DB01C8B610500F52C6B /* CVWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVWrapper.h; sourceTree = "<group>"; };
+		2A3D9DB11C8B614900F52C6B /* CameraStylus-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CameraStylus-Bridging-Header.h"; sourceTree = "<group>"; };
+		2A3D9DB21C8B614A00F52C6B /* CVWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CVWrapper.mm; sourceTree = "<group>"; };
+		2A891FB01CD4FAC90045CBF2 /* ArrayExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtensionTests.swift; sourceTree = "<group>"; };
+		2A891FB11CD4FAC90045CBF2 /* DrawingTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingTests.swift; sourceTree = "<group>"; };
+		2A891FB21CD4FAC90045CBF2 /* LinearFixedPenStrokeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinearFixedPenStrokeTests.swift; sourceTree = "<group>"; };
+		2A891FB31CD4FAC90045CBF2 /* PerpendicularOutsetTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerpendicularOutsetTests.swift; sourceTree = "<group>"; };
+		2A891FB41CD4FAC90045CBF2 /* PointTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointTests.swift; sourceTree = "<group>"; };
+		2A891FB51CD4FAC90045CBF2 /* SmoothFixedPenStrokeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmoothFixedPenStrokeTests.swift; sourceTree = "<group>"; };
+		2A891FB61CD4FAC90045CBF2 /* SnapshotTimelineTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotTimelineTests.swift; sourceTree = "<group>"; };
+		2A891FB71CD4FAC90045CBF2 /* StampedStrokeRendererTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StampedStrokeRendererTests.swift; sourceTree = "<group>"; };
+		2A891FB81CD4FAC90045CBF2 /* TestRendererTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestRendererTests.swift; sourceTree = "<group>"; };
+		2A891FB91CD4FAC90045CBF2 /* TimelineTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineTests.swift; sourceTree = "<group>"; };
+		2A891FBA1CD4FAC90045CBF2 /* WeightedByVelocityTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeightedByVelocityTests.swift; sourceTree = "<group>"; };
+		2A891FCF1CD54B9D0045CBF2 /* Calibration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calibration.swift; sourceTree = "<group>"; };
+		2A9F24C91C98EE5B0036F105 /* cameraBlobCoords.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cameraBlobCoords.swift; sourceTree = "<group>"; };
+		2AD7E9421CAEFEEF00186599 /* PerspectiveProjection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerspectiveProjection.swift; sourceTree = "<group>"; };
+		2AE7A6E21C8CC4010012D4A3 /* fetchCoords.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fetchCoords.cpp; sourceTree = "<group>"; };
+		2AE7A6E31C8CC4010012D4A3 /* fetchCoords.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fetchCoords.h; sourceTree = "<group>"; };
+		2AE7A6EC1C8D06470012D4A3 /* DrawingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
+		2AE7A6F31C8D07500012D4A3 /* Drawing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Drawing.swift; sourceTree = "<group>"; };
+		2AE7A6F41C8D07500012D4A3 /* Snapshot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Snapshot.swift; sourceTree = "<group>"; };
+		2AE7A6F51C8D07500012D4A3 /* SnapshotTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotTimeline.swift; sourceTree = "<group>"; };
+		2AE7A6F61C8D07500012D4A3 /* Timeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timeline.swift; sourceTree = "<group>"; };
+		2AE7A6FC1C8D07500012D4A3 /* Point.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
+		2AE7A6FE1C8D07500012D4A3 /* LinearFixedPenStroke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinearFixedPenStroke.swift; sourceTree = "<group>"; };
+		2AE7A6FF1C8D07500012D4A3 /* LinearVariablePenStroke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinearVariablePenStroke.swift; sourceTree = "<group>"; };
+		2AE7A7001C8D07500012D4A3 /* SmoothFixedGuidedStroke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmoothFixedGuidedStroke.swift; sourceTree = "<group>"; };
+		2AE7A7011C8D07500012D4A3 /* SmoothFixedPenStroke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmoothFixedPenStroke.swift; sourceTree = "<group>"; };
+		2AE7A7021C8D07500012D4A3 /* SmoothImageStampedStroke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmoothImageStampedStroke.swift; sourceTree = "<group>"; };
+		2AE7A7031C8D07500012D4A3 /* SmoothStampedStroke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmoothStampedStroke.swift; sourceTree = "<group>"; };
+		2AE7A7041C8D07500012D4A3 /* SmoothVariableGuidedStroke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmoothVariableGuidedStroke.swift; sourceTree = "<group>"; };
+		2AE7A7051C8D07500012D4A3 /* SmoothVariablePenStroke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmoothVariablePenStroke.swift; sourceTree = "<group>"; };
+		2AE7A7061C8D07500012D4A3 /* Stroke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stroke.swift; sourceTree = "<group>"; };
+		2AE7A7071C8D07500012D4A3 /* StrokeSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrokeSettings.swift; sourceTree = "<group>"; };
+		2AE7A70A1C8D07500012D4A3 /* ApplyRulerGuide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplyRulerGuide.swift; sourceTree = "<group>"; };
+		2AE7A70B1C8D07500012D4A3 /* PerpendicularOutset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerpendicularOutset.swift; sourceTree = "<group>"; };
+		2AE7A70C1C8D07500012D4A3 /* ScaleWeights.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaleWeights.swift; sourceTree = "<group>"; };
+		2AE7A70D1C8D07500012D4A3 /* StrokeTransformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrokeTransformation.swift; sourceTree = "<group>"; };
+		2AE7A70E1C8D07500012D4A3 /* ThreePointWeightAverage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreePointWeightAverage.swift; sourceTree = "<group>"; };
+		2AE7A70F1C8D07500012D4A3 /* WeightedByVelocity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeightedByVelocity.swift; sourceTree = "<group>"; };
+		2AE7A72E1C8D075A0012D4A3 /* CatmullRomRendererExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatmullRomRendererExtension.swift; sourceTree = "<group>"; };
+		2AE7A72F1C8D075A0012D4A3 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		2AE7A7301C8D075A0012D4A3 /* Drawable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Drawable.swift; sourceTree = "<group>"; };
+		2AE7A7311C8D075A0012D4A3 /* Renderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+		2AE7A7321C8D075A0012D4A3 /* StampedStrokeRendererExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StampedStrokeRendererExtension.swift; sourceTree = "<group>"; };
+		2AE7A7331C8D075A0012D4A3 /* TestRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestRenderer.swift; sourceTree = "<group>"; };
+		2AE7A7341C8D075A0012D4A3 /* UIRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIRenderer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A3D9D8D1C8B609000F52C6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A3D9D9E1C8B609000F52C6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A3D9D871C8B609000F52C6B = {
+			isa = PBXGroup;
+			children = (
+				2A3D9D921C8B609000F52C6B /* Application */,
+				2A9F24C81C98EE110036F105 /* CameraBlobCoords */,
+				2A3D9DA41C8B609000F52C6B /* CameraStylusTests */,
+				2AE7A6F01C8D07500012D4A3 /* DrawingWorkspace */,
+				2A3D9D911C8B609000F52C6B /* Products */,
+				2AE7A72D1C8D075A0012D4A3 /* Renderers */,
+			);
+			sourceTree = "<group>";
+		};
+		2A3D9D911C8B609000F52C6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A3D9D901C8B609000F52C6B /* CameraStylus.app */,
+				2A3D9DA11C8B609000F52C6B /* CameraStylusTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A3D9D921C8B609000F52C6B /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				2A3D9D931C8B609000F52C6B /* AppDelegate.swift */,
+				2A3D9D971C8B609000F52C6B /* Assets.xcassets */,
+				2AE7A6EC1C8D06470012D4A3 /* DrawingView.swift */,
+				2A3D9D9C1C8B609000F52C6B /* Info.plist */,
+				2A3D9D991C8B609000F52C6B /* Main.storyboard */,
+				2A3D9D951C8B609000F52C6B /* ViewController.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		2A3D9DA41C8B609000F52C6B /* CameraStylusTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A891FAE1CD4FAC90045CBF2 /* Drawing Tests */,
+				2A3D9DA51C8B609000F52C6B /* CameraStylusTests.swift */,
+				2A3D9DA71C8B609000F52C6B /* Info.plist */,
+			);
+			path = CameraStylusTests;
+			sourceTree = "<group>";
+		};
+		2A891FAE1CD4FAC90045CBF2 /* Drawing Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2A891FB01CD4FAC90045CBF2 /* ArrayExtensionTests.swift */,
+				2A891FB11CD4FAC90045CBF2 /* DrawingTests.swift */,
+				2A891FB21CD4FAC90045CBF2 /* LinearFixedPenStrokeTests.swift */,
+				2A891FB31CD4FAC90045CBF2 /* PerpendicularOutsetTests.swift */,
+				2A891FB41CD4FAC90045CBF2 /* PointTests.swift */,
+				2A891FB51CD4FAC90045CBF2 /* SmoothFixedPenStrokeTests.swift */,
+				2A891FB61CD4FAC90045CBF2 /* SnapshotTimelineTests.swift */,
+				2A891FB71CD4FAC90045CBF2 /* StampedStrokeRendererTests.swift */,
+				2A891FB81CD4FAC90045CBF2 /* TestRendererTests.swift */,
+				2A891FB91CD4FAC90045CBF2 /* TimelineTests.swift */,
+				2A891FBA1CD4FAC90045CBF2 /* WeightedByVelocityTests.swift */,
+			);
+			path = "Drawing Tests";
+			sourceTree = "<group>";
+		};
+		2A9F24C81C98EE110036F105 /* CameraBlobCoords */ = {
+			isa = PBXGroup;
+			children = (
+				2A3D9DB01C8B610500F52C6B /* CVWrapper.h */,
+				2A3D9DB21C8B614A00F52C6B /* CVWrapper.mm */,
+				2A3D9DB11C8B614900F52C6B /* CameraStylus-Bridging-Header.h */,
+				2AD7E9421CAEFEEF00186599 /* PerspectiveProjection.swift */,
+				2A9F24C91C98EE5B0036F105 /* cameraBlobCoords.swift */,
+				2AE7A6E21C8CC4010012D4A3 /* fetchCoords.cpp */,
+				2AE7A6E31C8CC4010012D4A3 /* fetchCoords.h */,
+				2A891FCF1CD54B9D0045CBF2 /* Calibration.swift */,
+			);
+			path = CameraBlobCoords;
+			sourceTree = "<group>";
+		};
+		2AE7A6F01C8D07500012D4A3 /* DrawingWorkspace */ = {
+			isa = PBXGroup;
+			children = (
+				2AE7A6F21C8D07500012D4A3 /* Drawing */,
+				2AE7A6FD1C8D07500012D4A3 /* Strokes */,
+				2AE7A6FC1C8D07500012D4A3 /* Point.swift */,
+			);
+			path = DrawingWorkspace;
+			sourceTree = "<group>";
+		};
+		2AE7A6F21C8D07500012D4A3 /* Drawing */ = {
+			isa = PBXGroup;
+			children = (
+				2AE7A6F31C8D07500012D4A3 /* Drawing.swift */,
+				2AE7A6F41C8D07500012D4A3 /* Snapshot.swift */,
+				2AE7A6F51C8D07500012D4A3 /* SnapshotTimeline.swift */,
+				2AE7A6F61C8D07500012D4A3 /* Timeline.swift */,
+			);
+			path = Drawing;
+			sourceTree = "<group>";
+		};
+		2AE7A6FD1C8D07500012D4A3 /* Strokes */ = {
+			isa = PBXGroup;
+			children = (
+				2AE7A7081C8D07500012D4A3 /* StrokeTransformations */,
+				2AE7A6FE1C8D07500012D4A3 /* LinearFixedPenStroke.swift */,
+				2AE7A6FF1C8D07500012D4A3 /* LinearVariablePenStroke.swift */,
+				2AE7A7001C8D07500012D4A3 /* SmoothFixedGuidedStroke.swift */,
+				2AE7A7011C8D07500012D4A3 /* SmoothFixedPenStroke.swift */,
+				2AE7A7021C8D07500012D4A3 /* SmoothImageStampedStroke.swift */,
+				2AE7A7031C8D07500012D4A3 /* SmoothStampedStroke.swift */,
+				2AE7A7041C8D07500012D4A3 /* SmoothVariableGuidedStroke.swift */,
+				2AE7A7051C8D07500012D4A3 /* SmoothVariablePenStroke.swift */,
+				2AE7A7061C8D07500012D4A3 /* Stroke.swift */,
+				2AE7A7071C8D07500012D4A3 /* StrokeSettings.swift */,
+			);
+			path = Strokes;
+			sourceTree = "<group>";
+		};
+		2AE7A7081C8D07500012D4A3 /* StrokeTransformations */ = {
+			isa = PBXGroup;
+			children = (
+				2AE7A70A1C8D07500012D4A3 /* ApplyRulerGuide.swift */,
+				2AE7A70B1C8D07500012D4A3 /* PerpendicularOutset.swift */,
+				2AE7A70C1C8D07500012D4A3 /* ScaleWeights.swift */,
+				2AE7A70D1C8D07500012D4A3 /* StrokeTransformation.swift */,
+				2AE7A70E1C8D07500012D4A3 /* ThreePointWeightAverage.swift */,
+				2AE7A70F1C8D07500012D4A3 /* WeightedByVelocity.swift */,
+			);
+			path = StrokeTransformations;
+			sourceTree = "<group>";
+		};
+		2AE7A72D1C8D075A0012D4A3 /* Renderers */ = {
+			isa = PBXGroup;
+			children = (
+				2AE7A72E1C8D075A0012D4A3 /* CatmullRomRendererExtension.swift */,
+				2AE7A72F1C8D075A0012D4A3 /* Color.swift */,
+				2AE7A7301C8D075A0012D4A3 /* Drawable.swift */,
+				2AE7A7311C8D075A0012D4A3 /* Renderer.swift */,
+				2AE7A7321C8D075A0012D4A3 /* StampedStrokeRendererExtension.swift */,
+				2AE7A7331C8D075A0012D4A3 /* TestRenderer.swift */,
+				2AE7A7341C8D075A0012D4A3 /* UIRenderer.swift */,
+			);
+			path = Renderers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A3D9D8F1C8B609000F52C6B /* CameraStylus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A3D9DAA1C8B609000F52C6B /* Build configuration list for PBXNativeTarget "CameraStylus" */;
+			buildPhases = (
+				2A3D9D8C1C8B609000F52C6B /* Sources */,
+				2A3D9D8D1C8B609000F52C6B /* Frameworks */,
+				2A3D9D8E1C8B609000F52C6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CameraStylus;
+			productName = CameraStylus;
+			productReference = 2A3D9D901C8B609000F52C6B /* CameraStylus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A3D9DA01C8B609000F52C6B /* CameraStylusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A3D9DAD1C8B609000F52C6B /* Build configuration list for PBXNativeTarget "CameraStylusTests" */;
+			buildPhases = (
+				2A3D9D9D1C8B609000F52C6B /* Sources */,
+				2A3D9D9E1C8B609000F52C6B /* Frameworks */,
+				2A3D9D9F1C8B609000F52C6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A3D9DA31C8B609000F52C6B /* PBXTargetDependency */,
+			);
+			name = CameraStylusTests;
+			productName = CameraStylusTests;
+			productReference = 2A3D9DA11C8B609000F52C6B /* CameraStylusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A3D9D881C8B609000F52C6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Sam Bleckley";
+				TargetAttributes = {
+					2A3D9D8F1C8B609000F52C6B = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					2A3D9DA01C8B609000F52C6B = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 2A3D9D8F1C8B609000F52C6B;
+					};
+				};
+			};
+			buildConfigurationList = 2A3D9D8B1C8B609000F52C6B /* Build configuration list for PBXProject "CameraStylus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A3D9D871C8B609000F52C6B;
+			productRefGroup = 2A3D9D911C8B609000F52C6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A3D9D8F1C8B609000F52C6B /* CameraStylus */,
+				2A3D9DA01C8B609000F52C6B /* CameraStylusTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A3D9D8E1C8B609000F52C6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A3D9D981C8B609000F52C6B /* Assets.xcassets in Resources */,
+				2A3D9D9B1C8B609000F52C6B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A3D9D9F1C8B609000F52C6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A3D9D8C1C8B609000F52C6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AE7A7371C8D075A0012D4A3 /* Drawable.swift in Sources */,
+				2AE7A71F1C8D07500012D4A3 /* SmoothImageStampedStroke.swift in Sources */,
+				2AE7A71A1C8D07500012D4A3 /* Point.swift in Sources */,
+				2AE7A71E1C8D07500012D4A3 /* SmoothFixedPenStroke.swift in Sources */,
+				2AE7A73B1C8D075A0012D4A3 /* UIRenderer.swift in Sources */,
+				2AE7A6E41C8CC4010012D4A3 /* fetchCoords.cpp in Sources */,
+				2AD7E9431CAEFEEF00186599 /* PerspectiveProjection.swift in Sources */,
+				2A3D9D961C8B609000F52C6B /* ViewController.swift in Sources */,
+				2AE7A7211C8D07500012D4A3 /* SmoothVariableGuidedStroke.swift in Sources */,
+				2AE7A73A1C8D075A0012D4A3 /* TestRenderer.swift in Sources */,
+				2AE7A7381C8D075A0012D4A3 /* Renderer.swift in Sources */,
+				2AE7A7291C8D07500012D4A3 /* StrokeTransformation.swift in Sources */,
+				2AE7A7241C8D07500012D4A3 /* StrokeSettings.swift in Sources */,
+				2AE7A71D1C8D07500012D4A3 /* SmoothFixedGuidedStroke.swift in Sources */,
+				2AE7A7271C8D07500012D4A3 /* PerpendicularOutset.swift in Sources */,
+				2AE7A7361C8D075A0012D4A3 /* Color.swift in Sources */,
+				2A9F24CA1C98EE5B0036F105 /* cameraBlobCoords.swift in Sources */,
+				2AE7A7261C8D07500012D4A3 /* ApplyRulerGuide.swift in Sources */,
+				2AE7A7121C8D07500012D4A3 /* Drawing.swift in Sources */,
+				2AE7A6EE1C8D06470012D4A3 /* DrawingView.swift in Sources */,
+				2A891FD01CD54B9D0045CBF2 /* Calibration.swift in Sources */,
+				2AE7A7141C8D07500012D4A3 /* SnapshotTimeline.swift in Sources */,
+				2AE7A7391C8D075A0012D4A3 /* StampedStrokeRendererExtension.swift in Sources */,
+				2AE7A7281C8D07500012D4A3 /* ScaleWeights.swift in Sources */,
+				2AE7A7351C8D075A0012D4A3 /* CatmullRomRendererExtension.swift in Sources */,
+				2AE7A71C1C8D07500012D4A3 /* LinearVariablePenStroke.swift in Sources */,
+				2AE7A7231C8D07500012D4A3 /* Stroke.swift in Sources */,
+				2AE7A7131C8D07500012D4A3 /* Snapshot.swift in Sources */,
+				2A3D9DB31C8B614A00F52C6B /* CVWrapper.mm in Sources */,
+				2AE7A7221C8D07500012D4A3 /* SmoothVariablePenStroke.swift in Sources */,
+				2AE7A72B1C8D07500012D4A3 /* WeightedByVelocity.swift in Sources */,
+				2A3D9D941C8B609000F52C6B /* AppDelegate.swift in Sources */,
+				2AE7A71B1C8D07500012D4A3 /* LinearFixedPenStroke.swift in Sources */,
+				2AE7A72A1C8D07500012D4A3 /* ThreePointWeightAverage.swift in Sources */,
+				2AE7A7201C8D07500012D4A3 /* SmoothStampedStroke.swift in Sources */,
+				2AE7A7151C8D07500012D4A3 /* Timeline.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A3D9D9D1C8B609000F52C6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A891FC21CD4FAC90045CBF2 /* DrawingTests.swift in Sources */,
+				2A891FCB1CD4FAC90045CBF2 /* WeightedByVelocityTests.swift in Sources */,
+				2A891FC31CD4FAC90045CBF2 /* LinearFixedPenStrokeTests.swift in Sources */,
+				2A891FC81CD4FAC90045CBF2 /* StampedStrokeRendererTests.swift in Sources */,
+				2A891FC61CD4FAC90045CBF2 /* SmoothFixedPenStrokeTests.swift in Sources */,
+				2A891FC91CD4FAC90045CBF2 /* TestRendererTests.swift in Sources */,
+				2A891FC41CD4FAC90045CBF2 /* PerpendicularOutsetTests.swift in Sources */,
+				2A891FC71CD4FAC90045CBF2 /* SnapshotTimelineTests.swift in Sources */,
+				2A891FCA1CD4FAC90045CBF2 /* TimelineTests.swift in Sources */,
+				2A891FC51CD4FAC90045CBF2 /* PointTests.swift in Sources */,
+				2A3D9DA61C8B609000F52C6B /* CameraStylusTests.swift in Sources */,
+				2A891FC11CD4FAC90045CBF2 /* ArrayExtensionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A3D9DA31C8B609000F52C6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A3D9D8F1C8B609000F52C6B /* CameraStylus */;
+			targetProxy = 2A3D9DA21C8B609000F52C6B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A3D9D991C8B609000F52C6B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A3D9D9A1C8B609000F52C6B /* Base */,
+			);
+			name = Main.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A3D9DA81C8B609000F52C6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2A3D9DA91C8B609000F52C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2A3D9DAB1C8B609000F52C6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "__ASSERT_MACROS_DEFINE_VERSIONS_WITHOUT_UNDERSCORES=0";
+				"HEADER_SEARCH_PATHS[arch=*]" = /usr/local/include;
+				INFOPLIST_FILE = Application/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				"LIBRARY_SEARCH_PATHS[arch=*]" = /usr/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-lopencv_calib3d",
+					"-lopencv_core",
+					"-lopencv_features2d",
+					"-lopencv_flann",
+					"-lopencv_highgui",
+					"-lopencv_imgcodecs",
+					"-lopencv_imgproc",
+					"-lopencv_ml",
+					"-lopencv_objdetect",
+					"-lopencv_photo",
+					"-lopencv_shape",
+					"-lopencv_stitching",
+					"-lopencv_superres",
+					"-lopencv_ts",
+					"-lopencv_video",
+					"-lopencv_videoio",
+					"-lopencv_videostab",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.diiq.CameraStylus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CameraBlobCoords/CameraStylus-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2A3D9DAC1C8B609000F52C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "__ASSERT_MACROS_DEFINE_VERSIONS_WITHOUT_UNDERSCORES=0";
+				"HEADER_SEARCH_PATHS[arch=*]" = /usr/local/include;
+				INFOPLIST_FILE = Application/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				"LIBRARY_SEARCH_PATHS[arch=*]" = /usr/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-lopencv_calib3d",
+					"-lopencv_core",
+					"-lopencv_features2d",
+					"-lopencv_flann",
+					"-lopencv_highgui",
+					"-lopencv_imgcodecs",
+					"-lopencv_imgproc",
+					"-lopencv_ml",
+					"-lopencv_objdetect",
+					"-lopencv_photo",
+					"-lopencv_shape",
+					"-lopencv_stitching",
+					"-lopencv_superres",
+					"-lopencv_ts",
+					"-lopencv_video",
+					"-lopencv_videoio",
+					"-lopencv_videostab",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.diiq.CameraStylus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CameraBlobCoords/CameraStylus-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		2A3D9DAE1C8B609000F52C6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CameraStylusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.diiq.CameraStylusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CameraStylus.app/Contents/MacOS/CameraStylus";
+			};
+			name = Debug;
+		};
+		2A3D9DAF1C8B609000F52C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CameraStylusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.diiq.CameraStylusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CameraStylus.app/Contents/MacOS/CameraStylus";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A3D9D8B1C8B609000F52C6B /* Build configuration list for PBXProject "CameraStylus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A3D9DA81C8B609000F52C6B /* Debug */,
+				2A3D9DA91C8B609000F52C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A3D9DAA1C8B609000F52C6B /* Build configuration list for PBXNativeTarget "CameraStylus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A3D9DAB1C8B609000F52C6B /* Debug */,
+				2A3D9DAC1C8B609000F52C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A3D9DAD1C8B609000F52C6B /* Build configuration list for PBXNativeTarget "CameraStylusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A3D9DAE1C8B609000F52C6B /* Debug */,
+				2A3D9DAF1C8B609000F52C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A3D9D881C8B609000F52C6B /* Project object */;
+}

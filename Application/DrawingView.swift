@@ -2,9 +2,12 @@ import AppKit
 
 class DrawingView: NSImageView {
   let drawing = Drawing<CGLayer>()
+  var calibration: Calibration!
 
-  func setup() {
+  func setup(calibration: Calibration) {
+    self.calibration = calibration
     drawing.strokeFactory = SmoothFixedPenStroke.init
+
   }
 
   override func drawRect(rect: CGRect) {
@@ -13,9 +16,11 @@ class DrawingView: NSImageView {
     renderer.context = context.CGContext
     drawing.draw(renderer)
 
-    renderer.color(Color(r: 0, g: 1, b: 0, a: 1))
-    renderer.circle(Point(x: 50, y: 50), radius: 30)
-    renderer.fill()
+    if calibration.state != .Running {
+      renderer.color(Color(r: 0, g: 1, b: 0, a: 1))
+      renderer.circle(calibration.currentCalibrationPoint(), radius: 30)
+      renderer.fill()
+    }
   }
 
   func undoStroke() {
