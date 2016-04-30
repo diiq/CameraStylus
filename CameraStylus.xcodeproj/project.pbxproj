@@ -1124,6 +1124,7 @@
 				<string>2A3D9DB01C8B610500F52C6B</string>
 				<string>2A3D9DB21C8B614A00F52C6B</string>
 				<string>2A3D9DB11C8B614900F52C6B</string>
+				<string>2AD7E9421CAEFEEF00186599</string>
 				<string>2A9F24C91C98EE5B0036F105</string>
 				<string>2AE7A6E21C8CC4010012D4A3</string>
 				<string>2AE7A6E31C8CC4010012D4A3</string>
@@ -1163,6 +1164,8 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>PerspectiveProjection.swift</string>
 			<key>path</key>
 			<string>PerspectiveProjection.swift</string>
 			<key>sourceTree</key>
@@ -1234,7 +1237,6 @@
 			<array>
 				<string>2AE7A6F21C8D07500012D4A3</string>
 				<string>2AE7A6FD1C8D07500012D4A3</string>
-				<string>2AD7E9421CAEFEEF00186599</string>
 				<string>2AE7A6FC1C8D07500012D4A3</string>
 			</array>
 			<key>isa</key>
