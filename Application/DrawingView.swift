@@ -12,6 +12,10 @@ class DrawingView: NSImageView {
     let renderer = UIRenderer(bounds: bounds)
     renderer.context = context.CGContext
     drawing.draw(renderer)
+
+    renderer.color(Color(r: 0, g: 1, b: 0, a: 1))
+    renderer.circle(Point(x: 50, y: 50), radius: 30)
+    renderer.fill()
   }
 
   func undoStroke() {

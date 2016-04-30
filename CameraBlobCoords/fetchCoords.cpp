@@ -7,11 +7,16 @@ using namespace std;
 using namespace cv;
 VideoCapture camera;
 Size scale = cvSize(800, 600);
-Scalar lower_bound_hsv = Scalar(12, 180, 200);
-Scalar upper_bound_hsv = Scalar(23, 255, 255);
+Scalar lower_bound_hsv = Scalar(250, 250, 250);
+Scalar upper_bound_hsv = Scalar(255, 255, 255);
+
 bool showImages = true;
 
 // Exports
+void setBlobColor(double h, double s, double v) {
+  lower_bound_hsv = Scalar((h - 15)/2, (s - 20)*2.55, (v - 20)*2.55);
+  upper_bound_hsv = Scalar((h + 15)/2, (s + 20)*2.55, (v + 20)*2.55);
+}
 
 bool fetchCoords(double &x, double &y) {
   // Fetch an image
@@ -32,18 +37,21 @@ bool fetchCoords(double &x, double &y) {
   return true;
 }
 
-// Private
-
 void openCamera() {
   camera = VideoCapture();
   camera.open(0);
 }
+
+// Private
 
 Mat captureImage() {
   bool success = false;
   Mat image;
   while(!success) {
     success = camera.read(image);
+  }
+  if (showImages) {
+    imshow("raw", image);
   }
   return image;
 }
@@ -57,9 +65,6 @@ Mat resizeImage(Mat orig_image) {
 Mat hsvImage(Mat orig_image) {
   Mat image;
   cvtColor(orig_image, image, COLOR_BGR2HSV);
-  if (showImages) {
-    imshow("raw", image);
-  }
   return image;
 }
 

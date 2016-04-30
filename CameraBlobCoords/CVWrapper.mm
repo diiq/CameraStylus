@@ -29,4 +29,9 @@
   openCamera();
 }
 
++ (void) setBlobColor:(double)h s:(double)s v:(double)v
+{
+  setBlobColor(h, s, v);
+}
+
 @end

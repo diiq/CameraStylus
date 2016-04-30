@@ -11,6 +11,7 @@
 #define CVOpenTemplate_Header_h
 #include <opencv2/opencv.hpp>
 
+void setBlobColor(double h, double s, double v);
 bool fetchCoords(double &x, double &y);
 void openCamera();
 
