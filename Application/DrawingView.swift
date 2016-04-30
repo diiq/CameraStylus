@@ -25,12 +25,12 @@ class DrawingView: NSImageView {
 
   func undoStroke() {
     drawing.undoStroke()
-    self.needsDisplay = true
+    setNeedsDisplay()
   }
 
   func redoStroke() {
     drawing.redoStroke()
-    self.needsDisplay = true
+    setNeedsDisplay()
   }
 
   func endStroke() {

@@ -22,7 +22,7 @@ class ViewController: NSViewController {
     drawingView.setNeedsDisplay()
   }
 
-  @IBAction func undo(sender: NSMenuItem) {
+  @IBAction func undople(sender: NSMenuItem) {
     drawingView.undoStroke()
   }
 

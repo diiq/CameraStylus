@@ -61,7 +61,7 @@
                                     <items>
                                         <menuItem title="Undo" keyEquivalent="z" id="xDn-0Y-GlZ">
                                             <connections>
-                                                <action selector="undo:" target="Ady-hI-5gd" id="Om3-Em-JJd"/>
+                                                <action selector="undople:" target="Ady-hI-5gd" id="0gL-c1-5VN"/>
                                             </connections>
                                         </menuItem>
                                         <menuItem title="Clear" keyEquivalent="x" id="c0X-LO-DBj">

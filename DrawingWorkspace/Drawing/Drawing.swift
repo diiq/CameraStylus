@@ -22,6 +22,7 @@ class Drawing<Image>: ImageDrawable {
   private var snapshots = SnapshotTimeline<ImageType>()
   var strokeFactory: ((points: [Point], transforms: [StrokeTransformation]) -> Stroke)!
   var pointsPerSnapshot = 10000
+  var currentStroke: Stroke?
 
   func draw<R: ImageRenderer where R.ImageType == ImageType>(renderer: R) {
     // Draw the most recent snapshot
@@ -46,7 +47,7 @@ class Drawing<Image>: ImageDrawable {
   }
 
   func updateStroke(point: Point) {
-    let stroke = strokes.latest() ?? newStroke([])
+    let stroke = currentStroke ?? newStroke([])
     stroke.addPoint(point)
   }
 
@@ -57,7 +58,7 @@ class Drawing<Image>: ImageDrawable {
   func endStroke() {
     // OK so I am a jerk but what we're gonna do is 'commit' 
     // the current line by making a new on on top of it. Meh.
-    newStroke([])
+    currentStroke = nil
   }
 
   func undoStroke() {
@@ -89,6 +90,7 @@ class Drawing<Image>: ImageDrawable {
     var line = strokeFactory(points: [], transforms: transforms)
     line.brushScale = 1
     addStroke(line)
+    currentStroke = line
     return line
   }
 }
