@@ -42,4 +42,21 @@ class DrawingView: NSImageView {
     drawing.updateStroke(point)
     setNeedsDisplay()
   }
+
+  func linearDemo() {
+    drawing.strokeFactory = LinearFixedPenStroke.init
+  }
+
+  func catmullDemo() {
+    drawing.strokeFactory = SmoothFixedPenStroke.init
+  }
+
+  func predictionDemo() {
+    // TODO
+    drawing.strokeFactory = SmoothFixedPenStroke.init
+  }
+
+  func stampedDemo() {
+    drawing.strokeFactory = SmoothStampedPenStroke.init
+  }
 }

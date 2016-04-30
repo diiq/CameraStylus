@@ -26,6 +26,22 @@ class ViewController: NSViewController {
     drawingView.undoStroke()
   }
 
+  @IBAction func linear(sender: NSMenuItem) {
+    drawingView.linearDemo()
+  }
+
+  @IBAction func catmull(sender: NSMenuItem) {
+    drawingView.catmullDemo()
+  }
+
+  @IBAction func prediction(sender: NSMenuItem) {
+    drawingView.predictionDemo()
+  }
+
+  @IBAction func stamped(sender: NSMenuItem) {
+    drawingView.stampedDemo()
+  }
+
   func setUpProjectionMatrix() {
     matrix = general2DProjectionMatrix(
       calibration.upper_left_in, p1_destination: calibration.upper_left_out,

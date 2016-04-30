@@ -61,12 +61,43 @@
                                     <items>
                                         <menuItem title="Undo" keyEquivalent="z" id="xDn-0Y-GlZ">
                                             <connections>
-                                                <action selector="undople:" target="Ady-hI-5gd" id="0gL-c1-5VN"/>
+                                                <action selector="undople:" target="Ady-hI-5gd" id="W6a-nR-JKr"/>
                                             </connections>
                                         </menuItem>
                                         <menuItem title="Clear" keyEquivalent="x" id="c0X-LO-DBj">
                                             <connections>
                                                 <action selector="undo:" target="Ady-hI-5gd" id="Inf-D8-Sz7"/>
+                                            </connections>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
+                            <menuItem title="Demos" id="ORO-oB-7Dh">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="Demos" systemMenu="apple" id="JjP-i0-2kq">
+                                    <items>
+                                        <menuItem title="Linear" keyEquivalent="1" id="5bc-0f-rFr">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="linear:" target="Ady-hI-5gd" id="tIz-Ks-WGR"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Catmull-Rom" keyEquivalent="2" id="5Vd-Ie-vs1">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="catmull:" target="Ady-hI-5gd" id="gCT-jt-ztM"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Predictive" keyEquivalent="3" id="FY1-3A-zUZ">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="prediction:" target="Ady-hI-5gd" id="vES-bO-NvV"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Stamped" keyEquivalent="4" id="FhQ-Ab-srs">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="stamped:" target="Ady-hI-5gd" id="CcT-Jk-NDF"/>
                                             </connections>
                                         </menuItem>
                                     </items>

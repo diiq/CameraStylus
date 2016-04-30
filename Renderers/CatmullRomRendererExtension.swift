@@ -92,25 +92,29 @@ extension Renderer {
     }
   }
 
-  func stampedCatmullRom(
-    points: [Point],
-    stamper: (point: Point, renderer: Renderer) -> (),
-    minGap: Double,
-    initial: Bool=true,
-    final: Bool=true) {
-      let controlPoints1: [Point] = points.slidingWindow(catmullControlPoint)
+  func stampedCatmullRom(points: [Point],
+                         stamper: (point: Point, renderer: Renderer) -> (),
+                         minGap: Double,
+                         initial: Bool=true,
+                         final: Bool=true) {
+    let controlPoints1: [Point] = points.slidingWindow(catmullControlPoint)
 
-      let controlPoints2: [Point] = points.slidingWindow {
-        focus, before, after in
-        return self.catmullControlPoint(focus, before: after, after: before)
-      }
+    let controlPoints2: [Point] = points.slidingWindow {
+      focus, before, after in
+      return self.catmullControlPoint(focus, before: after, after: before)
+    }
 
-      let start = initial ? 0 : 1
-      let end = final ? points.count : points.count - 1
-      for i in start ..< end - 1 {
-        stamper(point: points[i], renderer: self)
-        let bezier = (a: points[i], cp1: controlPoints1[i], cp2: controlPoints2[i+1], b: points[i+1])
-        stampedBezier(bezier, stamper: stamper, minimumGap: minGap)
-      }
+    let start = initial ? 0 : 1
+    let end = final ? points.count : points.count - 1
+
+    if end - 1 <= start {
+      return
+    }
+
+    for i in start ..< end - 1 {
+      stamper(point: points[i], renderer: self)
+      let bezier = (a: points[i], cp1: controlPoints1[i], cp2: controlPoints2[i+1], b: points[i+1])
+      stampedBezier(bezier, stamper: stamper, minimumGap: minGap)
+    }
   }
 }

@@ -3,9 +3,10 @@
  nor any roundness; it's just a line.
  */
 class LinearFixedPenStroke : BaseStroke {
-  let brushSize: Double = 1
+  let brushSize: Double = 10
 
   override func drawPoints(start: Int, _ stop: Int, renderer: Renderer, initial: Bool, final: Bool) {
+    renderer.color(NonPhotoBlue)
     renderer.linear(Array(points[start..<stop]))
     renderer.stroke(brushSize * brushScale)
     undrawnPointIndex = nil
