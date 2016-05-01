@@ -53,7 +53,7 @@ class DrawingView: NSImageView {
 
   func predictionDemo() {
     // TODO
-    drawing.strokeFactory = SmoothFixedPenStroke.init
+    drawing.strokeFactory = SmoothPredictedFixedPenStroke.init
   }
 
   func stampedDemo() {
