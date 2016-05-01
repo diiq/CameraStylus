@@ -43,6 +43,11 @@ class DrawingView: NSImageView {
     setNeedsDisplay()
   }
 
+  func clear() {
+    drawing.clearAll()
+    setNeedsDisplay()
+  }
+
   func linearDemo() {
     drawing.strokeFactory = LinearFixedPenStroke.init
   }

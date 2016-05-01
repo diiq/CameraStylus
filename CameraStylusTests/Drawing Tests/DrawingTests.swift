@@ -10,6 +10,7 @@ class DrawingTests: XCTestCase {
     return LinearFixedPenStroke(points: points)
   }()
   let line = [
+    "color",
     "move: <10.0, 50.0>",
     "line: <10.0, 50.0>, <20.0, 50.0>",
     "line: <20.0, 50.0>, <30.0, 50.0>",
@@ -65,5 +66,15 @@ class DrawingTests: XCTestCase {
     drawing.draw(renderer)
 
     XCTAssertEqual(renderer.currentImage, line)
+  }
+
+  func testClearAll() {
+    drawing.addStroke(stroke)
+    drawing.addStroke(stroke)
+    drawing.clearAll()
+
+    drawing.draw(renderer)
+
+    XCTAssertEqual(renderer.currentImage, [])
   }
 }

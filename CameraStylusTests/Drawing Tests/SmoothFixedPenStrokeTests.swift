@@ -8,11 +8,6 @@ class SmoothFixedPenStrokeTests: XCTestCase {
       return Point(x: 10.0 * Double($0), y: 50.0, weight: 1)
     }
     let stroke = SmoothFixedPenStroke(points: points)
-
-    let predictedPoints = (6...8).map {
-      return Point(x: 10.0 * Double($0), y: 50.0, weight: 1)
-    }
-    stroke.predictedPoints = predictedPoints
     return stroke
   }()
 
@@ -24,37 +19,8 @@ class SmoothFixedPenStrokeTests: XCTestCase {
       "bezier: <10.0, 50.0>, [<10.0, 50.0>, <16.6666666666667, 50.0>], <20.0, 50.0>",
       "bezier: <20.0, 50.0>, [<23.3333333333333, 50.0>, <26.6666666666667, 50.0>], <30.0, 50.0>",
       "bezier: <30.0, 50.0>, [<33.3333333333333, 50.0>, <36.6666666666667, 50.0>], <40.0, 50.0>",
-      "bezier: <40.0, 50.0>, [<43.3333333333333, 50.0>, <46.6666666666667, 50.0>], <50.0, 50.0>",
-      "bezier: <50.0, 50.0>, [<53.3333333333333, 50.0>, <56.6666666666667, 50.0>], <60.0, 50.0>",
-      "bezier: <60.0, 50.0>, [<63.3333333333333, 50.0>, <66.6666666666667, 50.0>], <70.0, 50.0>",
-      "bezier: <70.0, 50.0>, [<73.3333333333333, 50.0>, <80.0, 50.0>], <80.0, 50.0>",
+      "bezier: <40.0, 50.0>, [<43.3333333333333, 50.0>, <50.0, 50.0>], <50.0, 50.0>",
       "stroke"],
-    "draw() draws both points and predicted points")
-  }
-
-  func testDrawPredictedPoints() {
-    return; // Prediction is currently not present
-    stroke.drawPredictedPoints(renderer)
-    XCTAssertEqual(renderer.currentImage, [
-      "color",
-      "move: <40.0, 50.0>",
-      "bezier: <40.0, 50.0>, [<43.3333333333333, 50.0>, <46.6666666666667, 50.0>], <50.0, 50.0>",
-      "bezier: <50.0, 50.0>, [<53.3333333333333, 50.0>, <56.6666666666667, 50.0>], <60.0, 50.0>",
-      "bezier: <60.0, 50.0>, [<63.3333333333333, 50.0>, <66.6666666666667, 50.0>], <70.0, 50.0>",
-      "bezier: <70.0, 50.0>, [<73.3333333333333, 50.0>, <80.0, 50.0>], <80.0, 50.0>",
-      "stroke"],
-      "drawPredicted() uses the final 3 points plus predicted points")
-  }
-
-  func testDrawUndrawnPoints() {
-    stroke.undrawnPointIndex = 1
-    stroke.drawUndrawnPoints(renderer)
-    XCTAssertEqual(renderer.currentImage, [
-      "color",
-      "move: <30.0, 50.0>",
-      "bezier: <30.0, 50.0>, [<33.3333333333333, 50.0>, <36.6666666666667, 50.0>], <40.0, 50.0>",
-      "stroke"],
-      "drawUndrawnPoints() draws the final 3 previously-drawn points plus any new points")
+    "draw() draws points")
   }
 }
-

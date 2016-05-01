@@ -20,8 +20,8 @@ class Drawing<Image>: ImageDrawable {
   typealias ImageType = Image
   private var strokes = Timeline<Stroke>()
   private var snapshots = SnapshotTimeline<ImageType>()
-  var strokeFactory: ((points: [Point], transforms: [StrokeTransformation]) -> Stroke)!
-  var pointsPerSnapshot = 10000
+  var strokeFactory: ((points: [Point]) -> Stroke)!
+  var pointsPerSnapshot = 1000
   var currentStroke: Stroke?
 
   func draw<R: ImageRenderer where R.ImageType == ImageType>(renderer: R) {
@@ -47,7 +47,7 @@ class Drawing<Image>: ImageDrawable {
   }
 
   func updateStroke(point: Point) {
-    let stroke = currentStroke ?? newStroke([])
+    let stroke = currentStroke ?? newStroke()
     stroke.addPoint(point)
   }
 
@@ -71,6 +71,12 @@ class Drawing<Image>: ImageDrawable {
     snapshots.redoTo(strokes.currentIndex)
   }
 
+  func clearAll() {
+    strokes.currentIndex = 0
+    snapshots.undoTo(strokes.currentIndex)
+    snapshots.modified()
+  }
+
   private func mostRecentSnapshotIndex() -> Int {
     return snapshots.currentSnapshot()?.eventIndex ?? 0
   }
@@ -85,9 +91,9 @@ class Drawing<Image>: ImageDrawable {
     return counts.reduce(0, combine: +)
   }
 
-  private func newStroke(transforms: [StrokeTransformation]) -> Stroke {
+  private func newStroke() -> Stroke {
     // TODO: How to choose the stroke type
-    var line = strokeFactory(points: [], transforms: transforms)
+    var line = strokeFactory(points: [])
     line.brushScale = 1
     addStroke(line)
     currentStroke = line

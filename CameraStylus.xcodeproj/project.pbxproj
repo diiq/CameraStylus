@@ -41,7 +41,6 @@
 		2AE7A7201C8D07500012D4A3 /* SmoothStampedStroke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A7031C8D07500012D4A3 /* SmoothStampedStroke.swift */; };
 		2AE7A7221C8D07500012D4A3 /* SmoothVariablePenStroke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A7051C8D07500012D4A3 /* SmoothVariablePenStroke.swift */; };
 		2AE7A7231C8D07500012D4A3 /* Stroke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A7061C8D07500012D4A3 /* Stroke.swift */; };
-		2AE7A7241C8D07500012D4A3 /* StrokeSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A7071C8D07500012D4A3 /* StrokeSettings.swift */; };
 		2AE7A7261C8D07500012D4A3 /* ApplyRulerGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A70A1C8D07500012D4A3 /* ApplyRulerGuide.swift */; };
 		2AE7A7271C8D07500012D4A3 /* PerpendicularOutset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A70B1C8D07500012D4A3 /* PerpendicularOutset.swift */; };
 		2AE7A7281C8D07500012D4A3 /* ScaleWeights.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7A70C1C8D07500012D4A3 /* ScaleWeights.swift */; };
@@ -109,7 +108,6 @@
 		2AE7A7031C8D07500012D4A3 /* SmoothStampedStroke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmoothStampedStroke.swift; sourceTree = "<group>"; };
 		2AE7A7051C8D07500012D4A3 /* SmoothVariablePenStroke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmoothVariablePenStroke.swift; sourceTree = "<group>"; };
 		2AE7A7061C8D07500012D4A3 /* Stroke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stroke.swift; sourceTree = "<group>"; };
-		2AE7A7071C8D07500012D4A3 /* StrokeSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrokeSettings.swift; sourceTree = "<group>"; };
 		2AE7A70A1C8D07500012D4A3 /* ApplyRulerGuide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplyRulerGuide.swift; sourceTree = "<group>"; };
 		2AE7A70B1C8D07500012D4A3 /* PerpendicularOutset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerpendicularOutset.swift; sourceTree = "<group>"; };
 		2AE7A70C1C8D07500012D4A3 /* ScaleWeights.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaleWeights.swift; sourceTree = "<group>"; };
@@ -252,7 +250,6 @@
 				2AE7A7031C8D07500012D4A3 /* SmoothStampedStroke.swift */,
 				2AE7A7051C8D07500012D4A3 /* SmoothVariablePenStroke.swift */,
 				2AE7A7061C8D07500012D4A3 /* Stroke.swift */,
-				2AE7A7071C8D07500012D4A3 /* StrokeSettings.swift */,
 			);
 			path = Strokes;
 			sourceTree = "<group>";
@@ -394,7 +391,6 @@
 				2AE7A73A1C8D075A0012D4A3 /* TestRenderer.swift in Sources */,
 				2AE7A7381C8D075A0012D4A3 /* Renderer.swift in Sources */,
 				2AE7A7291C8D07500012D4A3 /* StrokeTransformation.swift in Sources */,
-				2AE7A7241C8D07500012D4A3 /* StrokeSettings.swift in Sources */,
 				2AE7A7271C8D07500012D4A3 /* PerpendicularOutset.swift in Sources */,
 				2AE7A7361C8D075A0012D4A3 /* Color.swift in Sources */,
 				2A9F24CA1C98EE5B0036F105 /* cameraBlobCoords.swift in Sources */,

@@ -28,6 +28,11 @@ class Timeline<Event> {
     currentIndex += 1
   }
 
+  func reset() {
+    array = []
+    currentIndex = 0
+  }
+
   func add(event: Event) {
     if array.count > currentIndex {
       array[currentIndex] = event

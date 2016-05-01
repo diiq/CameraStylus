@@ -5,10 +5,9 @@
 class LinearFixedPenStroke : BaseStroke {
   let brushSize: Double = 10
 
-  override func drawPoints(start: Int, _ stop: Int, renderer: Renderer, initial: Bool, final: Bool) {
+  override func draw(renderer: Renderer) {
     renderer.color(NonPhotoBlue)
-    renderer.linear(Array(points[start..<stop]))
+    renderer.linear(Array(points))
     renderer.stroke(brushSize * brushScale)
-    undrawnPointIndex = nil
   }
 }

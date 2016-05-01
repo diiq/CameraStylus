@@ -64,9 +64,9 @@
                                                 <action selector="undople:" target="Ady-hI-5gd" id="W6a-nR-JKr"/>
                                             </connections>
                                         </menuItem>
-                                        <menuItem title="Clear" keyEquivalent="x" id="c0X-LO-DBj">
+                                        <menuItem title="Clear" keyEquivalent="k" id="c0X-LO-DBj">
                                             <connections>
-                                                <action selector="undo:" target="Ady-hI-5gd" id="Inf-D8-Sz7"/>
+                                                <action selector="clear:" target="Ady-hI-5gd" id="fHo-0N-DNx"/>
                                             </connections>
                                         </menuItem>
                                     </items>

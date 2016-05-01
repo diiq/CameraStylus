@@ -42,6 +42,10 @@ class ViewController: NSViewController {
     drawingView.stampedDemo()
   }
 
+  @IBAction func clear(sender: NSMenuItem) {
+    drawingView.clear()
+  }
+
   func setUpProjectionMatrix() {
     matrix = general2DProjectionMatrix(
       calibration.upper_left_in, p1_destination: calibration.upper_left_out,

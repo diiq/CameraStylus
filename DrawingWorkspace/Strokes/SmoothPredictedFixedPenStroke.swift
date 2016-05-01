@@ -4,35 +4,30 @@
  has an extra predicted point on the end of the line.
  */
 class SmoothPredictedFixedPenStroke : BaseStroke {
-  let brushSize: Double = 5
-  override var undrawnPointOffset: Int { return 15 }
-
-  override func drawPoints(start: Int, _ end: Int, renderer: Renderer, initial: Bool=true, final: Bool=true) {
+  let brushSize: Double = 10
+  
+  override func draw(renderer: Renderer) {
     renderer.color(NonPhotoBlue)
 
     guard points.count > 2 else {
       guard points.count > 1 else { return }
-      if initial && final {
-        renderer.moveTo(points[start])
-        renderer.linear(Array(points[start..<end]))
-      }
+      renderer.moveTo(points[0])
+      renderer.linear(points)
       return
     }
 
-    guard points.count > start + 1 else { return }
-
-    renderer.moveTo(points[initial ? start : start + 1])
-    renderer.catmullRom(Array(points[start..<end]), initial:  initial, final: final)
+    renderer.moveTo(points[0])
+    renderer.catmullRom(points, initial: true, final: true)
     renderer.stroke(brushSize * brushScale)
 
-
-    if end > 1 {
-      let prediction = points[end - 1] + ((points[end - 1] - points[end - 2]) * 2)
-      let predictedCurve = [points[end - 2], points[end - 1], prediction]
+    let end = points.count - 1
+    if points.count > 1 {
+      let prediction = points[end] + ((points[end] - points[end - 1]) * 2)
+      let predictedCurve = [points[end - 1], points[end], prediction]
 
       renderer.color(Color(r: 1, g: 0, b: 0, a: 1))
-      renderer.moveTo(points[end - 1])
-      renderer.catmullRom(predictedCurve, initial:  false, final: final)
+      renderer.moveTo(points[end])
+      renderer.catmullRom(predictedCurve, initial: false, final: true)
       renderer.stroke(brushSize * brushScale)
     }
   }
