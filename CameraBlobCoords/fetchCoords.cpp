@@ -1,3 +1,5 @@
+// A slim C++ interface to OpenCV
+
 #include "opencv2/videoio.hpp"
 
 #include "fetchCoords.h"

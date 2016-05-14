@@ -7,7 +7,7 @@ class SmoothPredictedFixedPenStroke : BaseStroke {
   let brushSize: Double = 10
   
   override func draw(renderer: Renderer) {
-    renderer.color(NonPhotoBlue)
+    renderer.color(DefaultStrokeColor)
 
     guard points.count > 2 else {
       guard points.count > 1 else { return }
@@ -18,7 +18,7 @@ class SmoothPredictedFixedPenStroke : BaseStroke {
 
     renderer.moveTo(points[0])
     renderer.catmullRom(points, initial: true, final: true)
-    renderer.stroke(brushSize * brushScale)
+    renderer.stroke(brushSize)
 
     let end = points.count - 1
     if points.count > 1 {
@@ -28,7 +28,7 @@ class SmoothPredictedFixedPenStroke : BaseStroke {
       renderer.color(Color(r: 1, g: 0, b: 0, a: 1))
       renderer.moveTo(points[end])
       renderer.catmullRom(predictedCurve, initial: false, final: true)
-      renderer.stroke(brushSize * brushScale)
+      renderer.stroke(brushSize)
     }
   }
 }

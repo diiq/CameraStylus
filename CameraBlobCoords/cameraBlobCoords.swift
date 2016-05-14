@@ -1,11 +1,3 @@
-//
-//  cameraBlobCoords.swift
-//  CameraStylus
-//
-//  Created by Sam Bleckley on 3/15/16.
-//  Copyright © 2016 Sam Bleckley. All rights reserved.
-//
-
 import Foundation
 
 struct FalseTouch {

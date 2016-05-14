@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="10116"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="10117"/>
+        <capability name="box content view" minToolsVersion="7.0"/>
     </dependencies>
     <scenes>
         <!--Application-->
@@ -94,10 +95,16 @@
                                                 <action selector="prediction:" target="Ady-hI-5gd" id="vES-bO-NvV"/>
                                             </connections>
                                         </menuItem>
-                                        <menuItem title="Stamped" keyEquivalent="4" id="FhQ-Ab-srs">
+                                        <menuItem title="Stamped Outlines" keyEquivalent="4" id="FhQ-Ab-srs">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <connections>
-                                                <action selector="stamped:" target="Ady-hI-5gd" id="CcT-Jk-NDF"/>
+                                                <action selector="stampedOutlines:" target="Ady-hI-5gd" id="4pb-Pp-nQx"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Stamped" keyEquivalent="5" id="wf1-jz-OD4">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="stamped:" target="Ady-hI-5gd" id="Yit-E0-ecY"/>
                                             </connections>
                                         </menuItem>
                                     </items>
@@ -136,30 +143,36 @@
         <scene sceneID="hIz-AP-VOD">
             <objects>
                 <viewController id="XfG-lQ-9wD" customClass="ViewController" customModule="CameraStylus" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" id="m2S-Jp-Qdl">
+                    <view key="view" wantsLayer="YES" id="m2S-Jp-Qdl">
                         <rect key="frame" x="0.0" y="0.0" width="821" height="484"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <customView canDrawConcurrently="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ATN-7c-a9H" customClass="ActiveDrawingView" customModule="CameraStylus" customModuleProvider="target">
+                            <box title="Box" boxType="custom" borderType="none" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="Dly-Y2-L2K" userLabel="bg">
                                 <rect key="frame" x="0.0" y="0.0" width="821" height="484"/>
-                            </customView>
+                                <view key="contentView" id="oeL-Z3-fPq">
+                                    <rect key="frame" x="0.0" y="0.0" width="821" height="484"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                                <color key="fillColor" red="0.8666666666666667" green="0.82352941176470584" blue="0.73725490196078436" alpha="1" colorSpace="calibratedRGB"/>
+                            </box>
                             <customView canDrawConcurrently="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0mW-cs-dkO" customClass="DrawingView" customModule="CameraStylus" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="821" height="484"/>
                             </customView>
                         </subviews>
                         <constraints>
-                            <constraint firstItem="ATN-7c-a9H" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="6xR-89-rcA"/>
+                            <constraint firstAttribute="bottom" secondItem="Dly-Y2-L2K" secondAttribute="bottom" id="8bd-9k-dvA"/>
                             <constraint firstAttribute="trailing" secondItem="0mW-cs-dkO" secondAttribute="trailing" id="Ace-aa-2t6"/>
-                            <constraint firstAttribute="trailing" secondItem="ATN-7c-a9H" secondAttribute="trailing" id="Eot-Gh-mru"/>
                             <constraint firstItem="0mW-cs-dkO" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="Jhw-Dp-aMy"/>
                             <constraint firstItem="0mW-cs-dkO" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" id="PyU-W3-JQh"/>
-                            <constraint firstItem="ATN-7c-a9H" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" id="Yav-X9-fPj"/>
+                            <constraint firstItem="Dly-Y2-L2K" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="Yb6-bC-kOh"/>
+                            <constraint firstAttribute="bottom" secondItem="Dly-Y2-L2K" secondAttribute="bottom" id="mb7-lc-dp4"/>
+                            <constraint firstAttribute="trailing" secondItem="Dly-Y2-L2K" secondAttribute="trailing" id="n2Y-CE-xyQ"/>
+                            <constraint firstItem="Dly-Y2-L2K" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" id="p8f-g5-UJh"/>
                             <constraint firstAttribute="bottom" secondItem="0mW-cs-dkO" secondAttribute="bottom" id="rq3-6K-JJK"/>
-                            <constraint firstAttribute="bottom" secondItem="ATN-7c-a9H" secondAttribute="bottom" id="xGt-x9-XVe"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="activeDrawingView" destination="ATN-7c-a9H" id="VnS-mH-YhP"/>
                         <outlet property="drawingView" destination="0mW-cs-dkO" id="HM2-oc-1oV"/>
                     </connections>
                 </viewController>

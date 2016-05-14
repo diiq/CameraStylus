@@ -5,12 +5,10 @@ protocol Stroke: Drawable {
   func draw(renderer: Renderer)
   func addPoint(point: Point)
   func pointCount() -> Int
-  var brushScale: Double { get set }
 }
 
 
 class BaseStroke: Stroke {
-  var brushScale: Double = 1
   var points: [Point] = []
 
   init(points: [Point]) {

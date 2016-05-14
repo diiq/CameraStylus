@@ -6,8 +6,8 @@ class LinearFixedPenStroke : BaseStroke {
   let brushSize: Double = 10
 
   override func draw(renderer: Renderer) {
-    renderer.color(NonPhotoBlue)
+    renderer.color(DefaultStrokeColor)
     renderer.linear(Array(points))
-    renderer.stroke(brushSize * brushScale)
+    renderer.stroke(brushSize)
   }
 }

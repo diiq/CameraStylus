@@ -112,7 +112,6 @@ extension Renderer {
     }
 
     for i in start ..< end - 1 {
-      stamper(point: points[i], renderer: self)
       let bezier = (a: points[i], cp1: controlPoints1[i], cp2: controlPoints2[i+1], b: points[i+1])
       stampedBezier(bezier, stamper: stamper, minimumGap: minGap)
     }

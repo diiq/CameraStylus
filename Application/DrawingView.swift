@@ -61,6 +61,10 @@ class DrawingView: NSImageView {
     drawing.strokeFactory = SmoothPredictedFixedPenStroke.init
   }
 
+  func stampedOutlineDemo() {
+    drawing.strokeFactory = SmoothStampedOutlinesStroke.init
+  }
+
   func stampedDemo() {
     drawing.strokeFactory = SmoothStampedPenStroke.init
   }

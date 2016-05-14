@@ -3,13 +3,13 @@ class SmoothStampedPenStroke: SmoothFixedPenStroke {
 
   override func draw(renderer: Renderer) {
     func stamper(point: Point, renderer: Renderer) {
-      renderer.color(NonPhotoBlue)
-      renderer.circle(point, radius: point.weight * brushSize * brushScale)
+      renderer.color(DefaultStrokeColor)
+      renderer.circle(point, radius: point.weight)
       renderer.fill()
     }
-    //var weightedPoints = WeightedByVelocity(scale: brushSize * brushScale).apply(points)
-    //weightedPoints = ThreePointWeightAverage().apply(weightedPoints)
+    var weightedPoints = WeightedByVelocity(scale: brushSize).apply(points)
+    weightedPoints = ThreePointWeightAverage().apply(weightedPoints)
 
-    renderer.stampedCatmullRom(points, stamper: stamper, minGap: brushSize * 2, initial: true, final: true)
+    renderer.stampedCatmullRom(weightedPoints, stamper: stamper, minGap: 0.5, initial: true, final: true)
   }
 }

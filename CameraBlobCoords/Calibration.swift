@@ -24,11 +24,13 @@ class Calibration: CustomStringConvertible {
   }
 
   func setCalibrationColor() {
-    // Look for green blobs
+    // Look for green blobs; green circles are put on-screen
+    // during calibration.
     CVWrapper.setBlobColor(119, s: 41, v: 56)
   }
 
   func setRunningColor() {
+    // Look for hot pink blobs. The tip of the pencil is hot pink.
     CVWrapper.setBlobColor(340, s: 55, v: 80)
   }
 
@@ -48,7 +50,6 @@ class Calibration: CustomStringConvertible {
   }
 
   func setCalibrationPoint(point: Point) {
-    print(state.rawValue, point)
     switch state {
     case .UpperLeft:
       upper_left_in = point
@@ -82,6 +83,3 @@ class Calibration: CustomStringConvertible {
     }
   }
 }
-
-// Pink: 340, 55, 80
-// Green: 85, 70, 50)

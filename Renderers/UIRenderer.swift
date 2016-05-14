@@ -95,8 +95,6 @@ class UIRenderer: Renderer, ImageRenderer {
   }
 
   func placeImage(start start: Point, width: Double, height: Double, name: String) {
-    print("Not implemented: pencil!")
-    //let img = NSImage(named: "pencil.png")?.CGImage
-    //CGContextDrawImage(context, CGRect(x: start.x, y: start.y, width: width, height: height), img)
+    print("Not implemented")
   }
 }

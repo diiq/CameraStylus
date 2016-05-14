@@ -38,6 +38,10 @@ class ViewController: NSViewController {
     drawingView.predictionDemo()
   }
 
+  @IBAction func stampedOutlines(sender: NSMenuItem) {
+    drawingView.stampedOutlineDemo()
+  }
+
   @IBAction func stamped(sender: NSMenuItem) {
     drawingView.stampedDemo()
   }

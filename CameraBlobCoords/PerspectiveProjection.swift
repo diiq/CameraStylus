@@ -1,3 +1,7 @@
+// This is for calibrating the angle between the camera and the display. If 
+// you're looking at this code to learn about line drawing, you can ignore this
+// file (and every file in this group)
+
 import Foundation
 
 struct Matrix {

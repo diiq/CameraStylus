@@ -1,8 +1,7 @@
 /**
  A Timeline represents a series of actions which can be efficiently undone,
- redone, replayed, or jumped into.
-
- TODO: Something about serializing these suckers to disk.
+ redone, replayed, or jumped into. Ina  real app, this timeline needs to be
+ kept in-sync with a timeline of drawing snapshots.
  */
 
 class Timeline<Event> {
